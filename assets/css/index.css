@@ -1,1 +1,80 @@
-/* passion8 */
+/* --------------- Design System Setup --------------- */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --pure-white: #fff;
+  --pure-black: #000;
+  --base-black: #171717;
+  --base-pink-1: #e840af;
+  --base-pink-2: #bf41ce;
+  --base-purple: #9b41e9;
+  --grad-vertical: linear-gradient(to bottom, #e740af 0%, #9a41ea 100%);
+  --grad-horizontal: linear-gradient(to right, #e740af 0%, #9a41ea 100%);
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: none;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 1920px;
+  margin: auto;
+  display: block;
+  background-color: var(--base-black);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+  cursor: pointer;
+  width: unset;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+}
+
+img,
+video {
+  user-select: none;
+  -o-user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  border-style: none;
+  object-fit: fill;
+  cursor: pointer;
+}
+
+input,
+select {
+  outline: none;
+  border: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  background-color: transparent;
+}
+
+/* ------------------------------ */
+
+h1 {
+  color: var(--pure-white);
+  text-align: center;
+}
