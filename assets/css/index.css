@@ -83,10 +83,12 @@ div.footer {
   display: flex;
 }
 
-div.footer.logo {
+div.logo {
   display: flex;
+  width: 50%;
 }
 
-div.footer.socials {
+div.socials {
   display: flex;
+  text-align: right;
 }
