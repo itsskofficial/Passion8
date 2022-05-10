@@ -1,5 +1,6 @@
 /* --------------- Design System Setup --------------- */
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat");
 
 :root {
   --pure-white: #fff;
@@ -80,11 +81,69 @@ h1 {
 }
 
 h2 {
-  font: 600;
-  font-family:;
+  font-family:"Quicksand",sans-serif;
+  color: var(--pure-white);
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h3{
+  font-family:"Quicksand",sans-serif;
+  color: var(--pure-white);
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+div.email-input{
+  display: flex;
+}
+
+div.email-input div.email{
+  width:50%
+}
+
+div.email-input div.email input#email{
+  width: 80%;
+  padding: 20px 20px;
+  border: 6px solid var(--base-pink-1);
+  border-radius: 12px;
+  margin-left: 300px;
+  background-color: var(--base-black);
+}
+
+::placeholder{
+  font-family: "Montserrat",sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  text-align: left;
+  vertical-align: middle;
+  color: var(--pure-white);
+
+}
+
+div.email-input div.submit-button button#submit{
+  color: var(--pure-white);
+  background-color: var(--base-pink-1);
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+  border-radius: 12px;
+  margin-left: 200px;
+  vertical-align: middle;
+}
+
+div.email-cta{
+  margin-top: 100px;
 }
 
 div.footer {
+  margin-top: 200px;
+  margin-bottom: 50px;
   display: flex;
 }
 
