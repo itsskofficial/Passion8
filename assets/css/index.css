@@ -79,16 +79,34 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font: 600;
+  font-family:;
+}
+
 div.footer {
   display: flex;
 }
 
-div.logo {
+div.footer div.logo {
   display: flex;
   width: 50%;
+  margin-left: 50px;
 }
 
-div.socials {
+div.footer div.socials {
   display: flex;
-  text-align: right;
+  width: 50%;
+  margin-right: 500px;
 }
+
+div.socials ul.socials-list {
+  display: flex;
+  position: relative;
+  left: 500px;
+}
+div.socials ul.socials-list li {
+  padding: 10px 20px;
+}
+
+
