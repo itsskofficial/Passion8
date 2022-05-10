@@ -83,7 +83,7 @@ h1 {
 h2 {
   font-family:"Quicksand",sans-serif;
   color: var(--pure-white);
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 600;
   text-align: center;
 }
@@ -96,8 +96,42 @@ h3{
   text-align: center;
 }
 
+h4{
+  font-family: "Quicksand",sans-serif;
+  color: var(--base-pink-1);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+div.things-which-matter {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+div.things-which-matter div.things-flex{
+  display: flex;
+}
+
+div.things-which-matter div.things-flex div.thing-1 h4{
+  margin-left: 100px;
+  margin-top: 30px;
+}
+div.things-which-matter div.things-flex div.thing-1 img{
+  margin-left: 175px;
+}
+
+div.things-which-matter div.things-flex div.thing-2 h4{
+  margin-left: 190px;
+  margin-top: 20px;
+}
+div.things-which-matter div.things-flex div.thing-2 img{
+  margin-left: 210px;
+  height: 190px;
+}
+
 div.email-input{
   display: flex;
+  margin-top: 100px;
 }
 
 div.email-input div.email{
