@@ -445,29 +445,6 @@ button {
     font-weight: 600;
   }
 
-  /*Navbar*/
-
-  .nav__bar {
-    position: relative;
-    top: auto;
-  }
-
-  .title__logo {
-    margin: 1rem 0;
-  }
-
-  .navbar__buttons {
-    display: none;
-  }
-
-  .navigation__buttons {
-    margin: 5px 0;
-  }
-
-  .passion__navbar-mobileScreen {
-    display: block;
-  }
-
   /*Things Which Matter*/
 
   div.things-which-matter {
@@ -580,7 +557,7 @@ button {
     justify-content: center;
     align-items: center;
   }
-  
+
   /*Footer*/
 
   div.footer {
@@ -657,17 +634,29 @@ button {
     font-weight: 600;
   }
 
-  /*Navbar*/
+    /*Navbar*/
 
-  .title__logo {
-    flex-direction: column;
-  }
+    .nav__bar {
+      position: relative;
+      top: auto;
+    }
+  
+    .title__logo {
+      margin: 1rem 0;
+    }
+  
+    .navbar__buttons {
+      display: none;
+    }
+  
+    .navigation__buttons {
+      margin: 5px 0;
+    }
+  
+    .passion__navbar-mobileScreen {
+      display: block;
+    }
 
-  .navbar__buttons {
-    width: auto;
-    flex-direction: column;
-    justify-content: center;
-  }
 
   /*Things Which Matter*/
 
