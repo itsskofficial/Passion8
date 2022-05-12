@@ -162,6 +162,9 @@ div.things-which-matter div.things-flex div.thing-3 h4{
 div.email-input{
   display: flex;
   margin-top: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 div.email-input div.email{
@@ -169,11 +172,10 @@ div.email-input div.email{
 }
 
 div.email-input div.email input#email{
-  width: 80%;
+  width: 70%;
   padding: 20px 20px;
   border: 6px solid var(--base-pink-1);
   border-radius: 12px;
-  margin-left: 300px;
   background-color: var(--base-black);
 }
 
@@ -184,7 +186,10 @@ div.email-input div.email input#email{
   text-align: left;
   vertical-align: middle;
   color: var(--pure-white);
+}
 
+div.email-input div.submit-button{
+  width: 30%;
 }
 
 div.email-input div.submit-button button#submit{
@@ -197,7 +202,6 @@ div.email-input div.submit-button button#submit{
   font-weight: 600;
   font-size: x-large;
   border-radius: 12px;
-  margin-left: 200px;
   vertical-align: middle;
 }
 
@@ -344,6 +348,9 @@ div.things-which-matter div.things-flex div.thing-3 h4{
 div.email-input{
   display: flex;
   margin-top: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 div.email-input div.email{
@@ -351,7 +358,7 @@ div.email-input div.email{
 }
 
 div.email-input div.email input#email{
-  width: 60%;
+  width: 70%;
   padding: 20px 20px;
   border: 6px solid var(--base-pink-1);
   border-radius: 12px;
@@ -369,7 +376,8 @@ div.email-input div.email input#email{
 }
 
 div.email-input div.submit-button{
-  width: 50%;
+  width: 30%;
+  text-align: center;
 }
 
 div.email-input div.submit-button button#submit{
@@ -382,7 +390,6 @@ div.email-input div.submit-button button#submit{
   font-weight: 600;
   font-size: x-large;
   border-radius: 12px;
-  margin-left: 200px;
   vertical-align: middle;
 }
 
