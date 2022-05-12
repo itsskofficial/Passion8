@@ -1,121 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- external css -->
-    <link rel="stylesheet" href="assets/css/index.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- favicon -->
-    <link
-      rel="shortcut icon"
-      href="./assets/favicon/favicon.ico"
-      type="image/x-icon"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
-    <title>Passion8</title>
-  </head>
+  <!-- external css -->
+  <link rel="stylesheet" href="assets/css/index.css" />
 
-  <body>
-    <h1>Passion8.app</h1>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+  <title>Passion8</title>
+</head>
 
-    <script src="./assets/js/index.js"></script>
-
-    <!--things which matter-->
-    <div class="heading-2">
-      <h2>
-        Some things which matter
-      </h2>
+<body>
+  <nav class="nav__bar">
+    <a href="#">
+      <span class="title__logo">
+        <span class="logo">
+          <img src="/assets/img/FullLogo.svg" title="passion8" alt="passion8 logo" class="logo__img" />
+        </span>
+      </span>
+    </a>
+    <div class="navbar__buttons">
+      <button class="navigation__buttons"><a href="#">Home</a></button>
+      <button class="navigation__buttons">
+        <a href="/privacy-policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+      </button>
+      <button class="navigation__buttons">
+        <a href="https://github.com/Passion8-App" rel="noopener noreferrer">Github</a>
+      </button>
     </div>
-    <div class="things-which-matter">
-      <div class="things-flex">
-        <div class="thing-1">
-          <img src="./assets/img/thing-1-img-1.svg">
-          <h4>No privacy exploitation</h4>
-        </div>
-        <div class="thing-2">
-          <img src="./assets/img/thing-2-img-1.svg">
-          <h4>No bullshit content</h4>
-        </div>
-        <div class="thing-3">
-          <img src="./assets/img/thing-3-img-1.svg">
-          <h4>Safe secure & open-source</h4>
-        </div>
+    <div class="passion__navbar-mobileScreen">
+      <img src="/assets/img/hamburgerIcon.svg" alt="Menu" id="hamburger-open" />
+      <div class="passion__navbar-mobileScreen-overlayClose flex__center slide__bottom" id="menu-overlay">
+        <img src="/assets/img/hamburgerCloseIcon.svg" alt="Close" id="hamburger-close" />
+        <ul class="passion__navbar-mobileScreen-links">
+          <li class="p__normal" id="home"><a href="#">Home</a></li>
+          <li class="p__normal" id="privacy">
+            <a href="/privacy-policy">Privacy Policy</a>
+          </li>
+          <li class="p__normal" id="github">
+            <a href="https://github.com/Passion8-App">Github</a>
+          </li>
+        </ul>
       </div>
     </div>
+  </nav>
 
-    <!--email input-->
-    <div class="heading-2">
-      <h2>
-        Become a Web 3 creator
-      </h2>
-    </div>
-    <div class="email-input">
-      <div class="email">
-        <input type="email" id="email" name="email" placeholder="Enter your email">
+  <!--things which matter-->
+  <div class="heading-2">
+    <h2>
+      Some things which matter
+    </h2>
+  </div>
+  <div class="things-which-matter">
+    <div class="things-flex">
+      <div class="thing-1">
+        <img src="./assets/img/thing-1-img-1.svg">
+        <br>
+        <h4>No privacy exploitation</h4>
       </div>
-      <div class="submit-button">
-        <button type="button" id="submit" name="submit">
-          Submit
-        </button>
+      <div class="thing-2">
+        <img src="./assets/img/thing-2-img-1.svg">
+        <br>
+        <h4>No bullshit content</h4>
+      </div>
+      <div class="thing-3">
+        <img src="./assets/img/thing-3-img-1.svg">
+        <br>
+        <h4>Safe secure & open-source</h4>
       </div>
     </div>
+<<<<<<< HEAD
     <div class="email-cta">
       <h3 id="email-text" name="email-text">
         Although we are in development right now, we would like to know if you’re
         interested in using Passion8. If you really are, put in your email in the above box 
       </h3>
+=======
+  </div>
+
+  <!--email input-->
+  <div class="heading-2">
+    <h2>
+      Become a Web 3 creator
+    </h2>
+  </div>
+  <div class="email-input">
+    <div class="email">
+      <input type="email" id="email" name="email" placeholder="Enter your email">
+>>>>>>> 45e53170d9cb6bab120a248d9187be444cb753b9
     </div>
+    <div class="submit-button">
+      <button type="button" id="submit" name="submit">
+        Submit
+      </button>
+    </div>
+  </div>
+  <div class="email-cta">
+    <h3 id="email-text" name="email-text">
+      Although we are in development right now, we would like to know if you’re<br>
+      interested in using Passion8. If you really are, put in your email in the above box
+      </title>
+  </div>
 
 
-    <!--footer-->
-    <div class="footer">
-      <div class="logo">
-        <img src="./assets/img/FullLogo.svg" />
-      </div>
-      <div class="socials">
-        <ul class="socials-list">
-          <li id="instagram">
-            <a href="https://instagram.com/passion8.app">
-              <img src="./assets/img/instagram.svg" />
-            </a>
-          </li>
-          <li id="linkedin">
-            <a href="https://linkedin.com/company/passion8app">
-              <img src="./assets/img/linkedin.svg" />
-            </a>
-          </li>
-          <li id="twitter">
-            <a href="https://twitter.com/passion8app">
-              <img src="./assets/img/twitter.svg" />
-            </a>
-          </li>
-          <li id="mail">
-            <a href="mailto:contact@passion8.app">
-              <img src="./assets/img/mail.svg" />
-            </a>
-          </li>
-        </ul>
-      </div>
+  <!--footer-->
+  <div class="footer">
+    <div class="logo">
+      <img src="./assets/img/FullLogo.svg" />
     </div>
-  </body>
+    <div class="socials">
+      <ul class="socials-list">
+        <li id="instagram">
+          <a href="https://instagram.com/passion8.app">
+            <img src="./assets/img/instagram.svg" />
+          </a>
+        </li>
+        <li id="linkedin">
+          <a href="https://linkedin.com/company/passion8app">
+            <img src="./assets/img/linkedin.svg" />
+          </a>
+        </li>
+        <li id="twitter">
+          <a href="https://twitter.com/passion8app">
+            <img src="./assets/img/twitter.svg" />
+          </a>
+        </li>
+        <li id="mail">
+          <a href="mailto:contact@passion8.app">
+            <img src="./assets/img/mail.svg" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="./assets/js/index.js" type="module"></script>
+</body>
+
 </html>
