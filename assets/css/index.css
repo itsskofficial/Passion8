@@ -571,12 +571,16 @@ button {
     vertical-align: middle;
   }
 
-  div.email-cta {
+  div.email-cta{
+    display: flex;
     margin-top: 100px;
     margin-left: 20px;
     margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
   }
-
+  
   /*Footer*/
 
   div.footer {
@@ -768,13 +772,6 @@ button {
     vertical-align: middle;
   }
 
-  div.email-cta {
-    margin-top: 100px;
-    margin-left: 20px;
-    margin-right: 20px;
-    text-align: center;
-  }
-
   div.email-cta{
     margin-top: 100px;
     margin-left: 20px;
@@ -786,54 +783,6 @@ button {
   div.email-cta h3#email-text{
     text-align: center;
     vertical-align: middle;
-  }
-  
-  /*Footer*/
-  
-  div.footer {
-    margin-top: 200px;
-    margin-bottom: 50px;
-    display: flex;
-  }
-  
-  div.footer div.logo {
-    width: 50%;
-    margin-left: 20px;
-  }
-
-  div.footer div.logo img{
-    height: 70px;
-  }
-  
-  div.footer div.socials {
-    width: 50%;
-  }
-  
-  div.socials ul.socials-list {
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    margin-right: 20px;
-  }
-  div.socials ul.socials-list li {
-    padding: 20px 20px;
-  }
-  
-  div.socials ul.socials-list li#instagram img{
-    height: 30px;
-  }
-  
-  div.socials ul.socials-list li#linkedin img{
-    height: 30px;
-  }
-  
-  div.socials ul.socials-list li#twitter img{
-    margin-top: 2px;
-    height: 30px;
-  }
-  
-  div.socials ul.socials-list li#mail img{
-    height: 35px;
   }
 
   /*Footer*/
