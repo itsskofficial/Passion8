@@ -206,16 +206,18 @@ div.email-input div.submit-button button#submit{
 }
 
 div.email-cta{
+  display: flex;
   margin-top: 100px;
   margin-left: 20px;
   margin-right: 20px;
-  align-items: center;
+  text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
 div.email-cta h3#email-text{
-  text-align: center;
   vertical-align: middle;
+  width: 70%;
 }
 
 /*Footer*/
