@@ -195,7 +195,6 @@ button {
   cursor: pointer;
 }
 
-<<<<<<< HEAD
 div.email-cta{
   display: flex;
   margin-top: 100px;
@@ -209,7 +208,6 @@ div.email-cta{
 div.email-cta h3#email-text{
   vertical-align: middle;
   width: 70%;
-=======
 .passion__navbar-mobileScreen-links li button {
   margin-top: 3rem;
   font-size: 2rem;
@@ -217,7 +215,6 @@ div.email-cta h3#email-text{
 
 .passion__navbar-mobileScreen-links li:hover {
   color: var(--base-pink-2);
->>>>>>> 45e53170d9cb6bab120a248d9187be444cb753b9
 }
 
 .passion__navbar-mobileScreen-overlayOpen {
