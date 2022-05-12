@@ -264,7 +264,7 @@ h1 {
 h2 {
   font-family:"Quicksand",sans-serif;
   color: var(--pure-white);
-  font-size: 45px;
+  font-size: 30px;
   font-weight: 600;
   text-align: center;
 }
@@ -272,7 +272,7 @@ h2 {
 h3{
   font-family:"Quicksand",sans-serif;
   color: var(--pure-white);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
   text-align: center;
 }
@@ -280,7 +280,7 @@ h3{
 h4{
   font-family: "Quicksand",sans-serif;
   color: var(--base-pink-1);
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 600;
 }
 
@@ -318,16 +318,21 @@ div.things-which-matter div.things-flex div.thing-1 h4{
   text-align: center;
 }
 
+div.things-which-matter div.things-flex div.thing-1 img{
+  height: 150px;
+}
+
 div.things-which-matter div.things-flex div.thing-2 h4{
-  margin-top: 20px;
+  margin-top: 30px;
 }
 div.things-which-matter div.things-flex div.thing-2 img{
-  height: 190px;
+  height: 150px;
+  
 }
 
 div.things-which-matter div.things-flex div.thing-3 img{
   margin-top: 10px;
-  height: 170px;
+  height: 140px;
 }
 
 div.things-which-matter div.things-flex div.thing-3 h4{
@@ -342,15 +347,14 @@ div.email-input{
 }
 
 div.email-input div.email{
-  width:50%
+  width:50%;
 }
 
 div.email-input div.email input#email{
-  width: 80%;
+  width: 60%;
   padding: 20px 20px;
   border: 6px solid var(--base-pink-1);
   border-radius: 12px;
-  margin-left: 300px;
   background-color: var(--base-black);
 }
 
@@ -362,6 +366,10 @@ div.email-input div.email input#email{
   vertical-align: middle;
   color: var(--pure-white);
 
+}
+
+div.email-input div.submit-button{
+  width: 50%;
 }
 
 div.email-input div.submit-button button#submit{
