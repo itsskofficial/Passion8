@@ -77,6 +77,7 @@ button {
 
 @media only screen and (min-width: 1200px){
 
+/*Common Elements*/
 
 h1 {
   color: var(--pure-white);
@@ -106,6 +107,8 @@ h4{
   font-weight: 600;
 }
 
+/*Things Which Matter*/
+
 div.things-which-matter {
   margin-top: 100px;
   margin-bottom: 100px;
@@ -114,51 +117,47 @@ div.things-which-matter {
 div.things-which-matter div.things-flex{
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 div.things-which-matter div.things-flex div.thing-1{
+  text-align: center;
   width: 33%;
-  margin: auto;
+  margin-left: 20px;
 }
 
 div.things-which-matter div.things-flex div.thing-2{
+  text-align: center;
   width: 33%;
 }
 
 div.things-which-matter div.things-flex div.thing-3{
-  width: 33%;
+  text-align: center;
+  width: 34%;
+  margin-right: 20px;
 }
 
 div.things-which-matter div.things-flex div.thing-1 h4{
-  margin-left: 70px;
   margin-top: 30px;
-  justify-content: center;
-  text-align: center;
-}
-div.things-which-matter div.things-flex div.thing-1 img{
-  margin-left: 150px;
-  justify-content: center;
   text-align: center;
 }
 
 div.things-which-matter div.things-flex div.thing-2 h4{
-  margin-left: 190px;
   margin-top: 20px;
 }
 div.things-which-matter div.things-flex div.thing-2 img{
-  margin-left: 210px;
   height: 190px;
 }
 
 div.things-which-matter div.things-flex div.thing-3 img{
   margin-top: 10px;
-  margin-left: 260px;
   height: 170px;
 }
 
 div.things-which-matter div.things-flex div.thing-3 h4{
   margin-top: 32px;
-  margin-left: 150px;
 }
+
+/*Email Input*/
 
 div.email-input{
   display: flex;
@@ -204,7 +203,11 @@ div.email-input div.submit-button button#submit{
 
 div.email-cta{
   margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
+
+/*Footer*/
 
 div.footer {
   margin-top: 200px;
@@ -213,22 +216,19 @@ div.footer {
 }
 
 div.footer div.logo {
-  display: flex;
   width: 50%;
-  margin-left: 50px;
+  margin-left: 20px;
 }
 
 div.footer div.socials {
-  display: flex;
   width: 50%;
-  margin-right: 500px;
 }
 
 div.socials ul.socials-list {
   display: flex;
-  position: relative;
-  left: 550px;
-  margin-right: 30px;
+  justify-content: right;
+  align-items: right;
+  margin-right: 20px;
 }
 div.socials ul.socials-list li {
   padding: 10px 20px;
@@ -252,12 +252,179 @@ div.socials ul.socials-list li#mail img{
 }
 }
 
-@media only screen and (max-width: 1201px){
+@media only screen and (min-width: 992px) {
 
-  div.footer div.socials {
-    display: flex;
-    width: 30%;
-    margin-right: 700px;
-  }
+/*Common Elements*/
 
+h1 {
+  color: var(--pure-white);
+  text-align: center;
+}
+
+h2 {
+  font-family:"Quicksand",sans-serif;
+  color: var(--pure-white);
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h3{
+  font-family:"Quicksand",sans-serif;
+  color: var(--pure-white);
+  font-size: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+h4{
+  font-family: "Quicksand",sans-serif;
+  color: var(--base-pink-1);
+  font-size: 30px;
+  font-weight: 600;
+}
+
+/*Things Which Matter*/
+
+div.things-which-matter {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+div.things-which-matter div.things-flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+div.things-which-matter div.things-flex div.thing-1{
+  text-align: center;
+  width: 33%;
+  margin-left: 20px;
+}
+
+div.things-which-matter div.things-flex div.thing-2{
+  text-align: center;
+  width: 33%;
+}
+
+div.things-which-matter div.things-flex div.thing-3{
+  text-align: center;
+  width: 34%;
+  margin-right: 20px;
+}
+
+div.things-which-matter div.things-flex div.thing-1 h4{
+  margin-top: 30px;
+  text-align: center;
+}
+
+div.things-which-matter div.things-flex div.thing-2 h4{
+  margin-top: 20px;
+}
+div.things-which-matter div.things-flex div.thing-2 img{
+  height: 190px;
+}
+
+div.things-which-matter div.things-flex div.thing-3 img{
+  margin-top: 10px;
+  height: 170px;
+}
+
+div.things-which-matter div.things-flex div.thing-3 h4{
+  margin-top: 32px;
+}
+
+/*Email Input*/
+
+div.email-input{
+  display: flex;
+  margin-top: 100px;
+}
+
+div.email-input div.email{
+  width:50%
+}
+
+div.email-input div.email input#email{
+  width: 80%;
+  padding: 20px 20px;
+  border: 6px solid var(--base-pink-1);
+  border-radius: 12px;
+  margin-left: 300px;
+  background-color: var(--base-black);
+}
+
+::placeholder{
+  font-family: "Montserrat",sans-serif;
+  font-size: x-large;
+  font-weight: 600;
+  text-align: left;
+  vertical-align: middle;
+  color: var(--pure-white);
+
+}
+
+div.email-input div.submit-button button#submit{
+  color: var(--pure-white);
+  background-color: var(--base-pink-1);
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat",sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+  border-radius: 12px;
+  margin-left: 200px;
+  vertical-align: middle;
+}
+
+div.email-cta{
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+/*Footer*/
+
+div.footer {
+  margin-top: 200px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+div.footer div.logo {
+  width: 50%;
+  margin-left: 20px;
+}
+
+div.footer div.socials {
+  width: 50%;
+}
+
+div.socials ul.socials-list {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin-right: 20px;
+}
+div.socials ul.socials-list li {
+  padding: 10px 20px;
+}
+
+div.socials ul.socials-list li#instagram img{
+  height: 50px;
+}
+
+div.socials ul.socials-list li#linkedin img{
+  height: 50px;
+}
+
+div.socials ul.socials-list li#twitter img{
+  margin-top: 2px;
+  height: 50px;
+}
+
+div.socials ul.socials-list li#mail img{
+  height: 55px;
+}
 }
