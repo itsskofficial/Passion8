@@ -1,1 +1,3 @@
-console.log('Passion8')
+import { setupPageFunctionality } from './domUtils.js'
+
+setupPageFunctionality()
