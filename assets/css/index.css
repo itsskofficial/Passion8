@@ -195,16 +195,6 @@ button {
   cursor: pointer;
 }
 
-div.email-cta{
-  display: flex;
-  margin-top: 100px;
-  margin-left: 20px;
-  margin-right: 20px;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
 .passion__navbar-mobileScreen-links li button {
   margin-top: 3rem;
   font-size: 2rem;
@@ -231,42 +221,6 @@ div.email-cta{
 
 .passion__navbar-mobileScreen-overlayClose {
   display: none;
-}
-
-
-@media (max-width: 800px) {
-  .nav__bar {
-    position: relative;
-    top: auto;
-  }
-
-  .title__logo {
-    margin: 1rem 0;
-  }
-
-  .navbar__buttons {
-    display: none;
-  }
-
-  .navigation__buttons {
-    margin: 5px 0;
-  }
-
-  .passion__navbar-mobileScreen {
-    display: block;
-  }
-}
-
-@media (max-width: 550px) {
-  .title__logo {
-    flex-direction: column;
-  }
-
-  .navbar__buttons {
-    width: auto;
-    flex-direction: column;
-    justify-content: center;
-  }
 }
 
 /* ------------------------------ */
@@ -400,10 +354,19 @@ div.email-cta{
     vertical-align: middle;
   }
 
-  div.email-cta {
+  div.email-cta{
+    display: flex;
     margin-top: 100px;
     margin-left: 20px;
     margin-right: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  div.email-cta h3#email-text{
+      vertical-align: middle;
+      width: 70%;
   }
 
   /*Footer*/
@@ -480,6 +443,29 @@ div.email-cta{
     color: var(--base-pink-1);
     font-size: 25px;
     font-weight: 600;
+  }
+
+  /*Navbar*/
+
+  .nav__bar {
+    position: relative;
+    top: auto;
+  }
+
+  .title__logo {
+    margin: 1rem 0;
+  }
+
+  .navbar__buttons {
+    display: none;
+  }
+
+  .navigation__buttons {
+    margin: 5px 0;
+  }
+
+  .passion__navbar-mobileScreen {
+    display: block;
   }
 
   /*Things Which Matter*/
@@ -667,6 +653,18 @@ div.email-cta{
     font-weight: 600;
   }
 
+  /*Navbar*/
+
+  .title__logo {
+    flex-direction: column;
+  }
+
+  .navbar__buttons {
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   /*Things Which Matter*/
 
   div.things-which-matter {
@@ -837,10 +835,260 @@ div.email-cta{
   div.socials ul.socials-list li#mail img{
     height: 35px;
   }
+
+  /*Footer*/
+
+  div.footer {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    display: flex;
   }
 
-  div.email-cta h3#email-text br {
-    display: none;
+  div.footer div.logo {
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  div.footer div.logo img {
+    height: 70px;
+  }
+
+  div.footer div.socials {
+    width: 50%;
+  }
+
+  div.socials ul.socials-list {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 20px;
+  }
+  div.socials ul.socials-list li {
+    padding: 20px 20px;
+  }
+
+  div.socials ul.socials-list li#instagram img {
+    height: 30px;
+  }
+
+  div.socials ul.socials-list li#linkedin img {
+    height: 30px;
+  }
+
+  div.socials ul.socials-list li#twitter img {
+    margin-top: 2px;
+    height: 30px;
+  }
+
+  div.socials ul.socials-list li#mail img {
+    height: 35px;
+  }
+}
+
+@media only screen and (max-width: 599px) {
+  /*Common Elements*/
+
+  h1 {
+    color: var(--pure-white);
+    text-align: center;
+  }
+
+  h2 {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pure-white);
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pure-white);
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  h4 {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--base-pink-1);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  /*Navbar*/
+
+  .title__logo {
+    flex-direction: column;
+  }
+
+  .navbar__buttons {
+    width: auto;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /*Things Which Matter*/
+
+  div.things-which-matter {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
+
+  div.things-which-matter div.things-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div.things-which-matter div.things-flex div.thing-1 {
+    text-align: center;
+    width: 33%;
+    margin-left: 20px;
+  }
+
+  div.things-which-matter div.things-flex div.thing-2 {
+    text-align: center;
+    width: 33%;
+  }
+
+  div.things-which-matter div.things-flex div.thing-3 {
+    text-align: center;
+    width: 34%;
+    margin-right: 20px;
+  }
+
+  div.things-which-matter div.things-flex div.thing-1 h4 {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  div.things-which-matter div.things-flex div.thing-1 img {
+    height: 120px;
+  }
+
+  div.things-which-matter div.things-flex div.thing-2 h4 {
+    margin-top: 30px;
+  }
+  div.things-which-matter div.things-flex div.thing-2 img {
+    height: 120px;
+  }
+
+  div.things-which-matter div.things-flex div.thing-3 img {
+    margin-top: 10px;
+    height: 110px;
+  }
+
+  div.things-which-matter div.things-flex div.thing-3 h4 {
+    margin-top: 32px;
+  }
+
+  /*Email Input*/
+
+  div.email-input {
+    display: flex;
+    margin-top: 70px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.email-input div.email {
+    width: 50%;
+  }
+
+  div.email-input div.email input#email {
+    width: 80%;
+    padding: 15px 15px;
+    border: 6px solid var(--base-pink-1);
+    border-radius: 12px;
+    background-color: var(--base-black);
+  }
+
+  ::placeholder {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: 600;
+    text-align: left;
+    vertical-align: middle;
+    color: var(--pure-white);
+  }
+
+  div.email-input div.submit-button {
+    width: 30%;
+    text-align: center;
+  }
+
+  div.email-input div.submit-button button#submit {
+    color: var(--pure-white);
+    background-color: var(--base-pink-1);
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: large;
+    border-radius: 12px;
+    vertical-align: middle;
+  }
+
+  div.email-cta{
+    margin-top: 70px;
+    margin-left: 20px;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div.email-cta h3#email-text{
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  /*Footer*/
+  
+  div.footer {
+    margin-bottom: 50px;
+    display: flex;
+  }
+  
+  div.footer div.logo {
+    width: 50%;
+    margin-left: 20px;
+  }
+
+  div.footer div.logo img{
+    height: 70px;
+  }
+  
+  div.footer div.socials {
+    width: 50%;
+  }
+  
+  div.socials ul.socials-list {
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 20px;
+  }
+  div.socials ul.socials-list li {
+    padding: 20px 20px;
+  }
+  
+  div.socials ul.socials-list li#instagram img{
+    height: 30px;
+  }
+  
+  div.socials ul.socials-list li#linkedin img{
+    height: 30px;
+  }
+  
+  div.socials ul.socials-list li#twitter img{
+    margin-top: 2px;
+    height: 30px;
+  }
+  
+  div.socials ul.socials-list li#mail img{
+    height: 35px;
   }
 
   /*Footer*/
