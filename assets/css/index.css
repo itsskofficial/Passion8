@@ -338,7 +338,7 @@ button {
   }
 
   div.email-input div.submit-button {
-    width: 30%;
+    width: 10%;
   }
 
   div.email-input div.submit-button button#submit {
@@ -425,7 +425,7 @@ button {
   h2 {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     text-align: center;
   }
@@ -433,7 +433,7 @@ button {
   h3 {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
   }
@@ -480,19 +480,19 @@ button {
   }
 
   div.things-which-matter div.things-flex div.thing-1 img {
-    height: 150px;
+    height: 130px;
   }
 
   div.things-which-matter div.things-flex div.thing-2 h4 {
     margin-top: 30px;
   }
   div.things-which-matter div.things-flex div.thing-2 img {
-    height: 150px;
+    height: 130px;
   }
 
   div.things-which-matter div.things-flex div.thing-3 img {
     margin-top: 10px;
-    height: 140px;
+    height: 120px;
   }
 
   div.things-which-matter div.things-flex div.thing-3 h4 {
@@ -614,7 +614,7 @@ button {
   h2 {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     text-align: center;
   }
@@ -622,7 +622,7 @@ button {
   h3 {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
   }
@@ -630,7 +630,7 @@ button {
   h4 {
     font-family: 'Quicksand', sans-serif;
     color: var(--base-pink-1);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
   }
 
@@ -693,23 +693,23 @@ button {
   }
 
   div.things-which-matter div.things-flex div.thing-1 img {
-    height: 140px;
+    height: 142px;
   }
 
   div.things-which-matter div.things-flex div.thing-2 h4 {
-    margin-top: 30px;
+    margin-top: 50px;
   }
   div.things-which-matter div.things-flex div.thing-2 img {
-    height: 140px;
+    height: 120px;
   }
 
   div.things-which-matter div.things-flex div.thing-3 img {
-    margin-top: 10px;
-    height: 130px;
+    margin-top: 50px;
+    height: 110px;
   }
 
   div.things-which-matter div.things-flex div.thing-3 h4 {
-    margin-top: 32px;
+    margin-top: 30px;
   }
 
   /*Email Input*/
@@ -834,7 +834,7 @@ button {
   h2 {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 600;
     text-align: center;
   }
@@ -842,7 +842,7 @@ button {
   h3 {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
     text-align: center;
   }
@@ -850,7 +850,7 @@ button {
   h4 {
     font-family: 'Quicksand', sans-serif;
     color: var(--base-pink-1);
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 600;
   }
 
@@ -875,24 +875,26 @@ button {
 
   div.things-which-matter div.things-flex {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
   }
   div.things-which-matter div.things-flex div.thing-1 {
+    margin-top: 30px;
     text-align: center;
-    width: 33%;
-    margin-left: 20px;
+    width: 100%;
   }
 
   div.things-which-matter div.things-flex div.thing-2 {
+    margin-top: 30px;
     text-align: center;
-    width: 33%;
+    width: 100%;
   }
 
   div.things-which-matter div.things-flex div.thing-3 {
+    margin-top: 30px;
     text-align: center;
-    width: 34%;
-    margin-right: 20px;
+    width: 100%;
   }
 
   div.things-which-matter div.things-flex div.thing-1 h4 {
@@ -924,6 +926,7 @@ button {
 
   div.email-input {
     display: flex;
+    flex-direction: column;
     margin-top: 70px;
     text-align: center;
     align-items: center;
@@ -931,7 +934,7 @@ button {
   }
 
   div.email-input div.email {
-    width: 50%;
+    width: 100%;
   }
 
   div.email-input div.email input#email {
@@ -952,7 +955,8 @@ button {
   }
 
   div.email-input div.submit-button {
-    width: 30%;
+    margin-top: 50px;
+    width: 50%;
     text-align: center;
   }
 
@@ -964,7 +968,7 @@ button {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: large;
+    font-size: 20px;
     border-radius: 12px;
     vertical-align: middle;
   }
@@ -982,53 +986,7 @@ button {
     vertical-align: middle;
   }
   
-  /*Footer*/
-  
-  div.footer {
-    margin-bottom: 50px;
-    display: flex;
-  }
-  
-  div.footer div.logo {
-    width: 50%;
-    margin-left: 20px;
-  }
-
-  div.footer div.logo img{
-    height: 70px;
-  }
-  
-  div.footer div.socials {
-    width: 50%;
-  }
-  
-  div.socials ul.socials-list {
-    display: flex;
-    justify-content: right;
-    align-items: right;
-    margin-right: 20px;
-  }
-  div.socials ul.socials-list li {
-    padding: 20px 20px;
-  }
-  
-  div.socials ul.socials-list li#instagram img{
-    height: 30px;
-  }
-  
-  div.socials ul.socials-list li#linkedin img{
-    height: 30px;
-  }
-  
-  div.socials ul.socials-list li#twitter img{
-    margin-top: 2px;
-    height: 30px;
-  }
-  
-  div.socials ul.socials-list li#mail img{
-    height: 35px;
-  }
-
+ 
   /*Footer*/
 
   div.footer {
@@ -1043,7 +1001,7 @@ button {
   }
 
   div.footer div.logo img {
-    height: 70px;
+    height: 40px;
   }
 
   div.footer div.socials {
@@ -1057,23 +1015,23 @@ button {
     margin-right: 20px;
   }
   div.socials ul.socials-list li {
-    padding: 20px 20px;
+    padding: 10px 10px;
   }
 
   div.socials ul.socials-list li#instagram img {
-    height: 30px;
+    height: 20px;
   }
 
   div.socials ul.socials-list li#linkedin img {
-    height: 30px;
+    height: 20px;
   }
 
   div.socials ul.socials-list li#twitter img {
     margin-top: 2px;
-    height: 30px;
+    height: 20px;
   }
 
   div.socials ul.socials-list li#mail img {
-    height: 35px;
+    height: 25px;
   }
 }
