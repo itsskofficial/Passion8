@@ -135,6 +135,29 @@
   </div>
 
   <script src="./assets/js/index.js" type="module"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBKWRkKzMj5ESTLMh0fm_lurrWOMitiXIs",
+      authDomain: "passion8application.firebaseapp.com",
+      projectId: "passion8application",
+      storageBucket: "passion8application.appspot.com",
+      messagingSenderId: "830459813766",
+      appId: "1:830459813766:web:91f6d29deeba99b1701607",
+      measurementId: "G-1MQZ587TN7"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
 </body>
 
 </html>
