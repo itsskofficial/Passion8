@@ -869,7 +869,7 @@ button {
   /*Things Which Matter*/
 
   div.things-which-matter {
-    margin-top: 70px;
+    margin-top: 30px;
     margin-bottom: 70px;
   }
 
@@ -939,7 +939,7 @@ button {
 
   div.email-input div.email input#email {
     width: 80%;
-    padding: 15px 15px;
+    padding: 10px 10px;
     border: 6px solid var(--base-pink-1);
     border-radius: 12px;
     background-color: var(--base-black);
@@ -947,7 +947,7 @@ button {
 
   ::placeholder {
     font-family: 'Montserrat', sans-serif;
-    font-size: large;
+    font-size: medium;
     font-weight: 600;
     text-align: left;
     vertical-align: middle;
@@ -968,7 +968,7 @@ button {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 20px;
+    font-size: 15px;
     border-radius: 12px;
     vertical-align: middle;
   }
