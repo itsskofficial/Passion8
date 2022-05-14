@@ -856,14 +856,25 @@ button {
 
   /*Navbar*/
 
+  .nav__bar {
+    position: relative;
+    top: auto;
+  }
+
   .title__logo {
-    flex-direction: column;
+    margin: 1rem 0;
   }
 
   .navbar__buttons {
-    width: auto;
-    flex-direction: column;
-    justify-content: center;
+    display: none;
+  }
+
+  .navigation__buttons {
+    margin: 5px 0;
+  }
+
+  .passion__navbar-mobileScreen {
+    display: block;
   }
 
   /*Things Which Matter*/
