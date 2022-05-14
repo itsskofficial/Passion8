@@ -225,7 +225,7 @@ button {
 
 /* ------------------------------ */
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1201px) {
   /*Common Elements*/
 
   h1 {
@@ -236,7 +236,7 @@ button {
   h2 {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
-    font-size: 45px;
+    font-size: 30px;
     font-weight: 600;
     text-align: center;
   }
@@ -414,7 +414,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 993px) and (max-width:1200px)  {
   /*Common Elements*/
 
   h1 {
@@ -603,7 +603,7 @@ button {
   }
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width:601px) and (max-width: 992px) {
   /*Common Elements*/
 
   h1 {
@@ -823,7 +823,7 @@ button {
   }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 600px) {
   /*Common Elements*/
 
   h1 {
