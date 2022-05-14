@@ -244,7 +244,7 @@ button {
   h3 {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     text-align: center;
   }
@@ -252,7 +252,7 @@ button {
   h4 {
     font-family: 'Quicksand', sans-serif;
     color: var(--base-pink-1);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
   }
 
@@ -285,6 +285,10 @@ button {
     margin-right: 20px;
   }
 
+  div.things-which-matter div.things-flex div.thing-1 img{
+    height: 150px;
+  }
+
   div.things-which-matter div.things-flex div.thing-1 h4 {
     margin-top: 30px;
     text-align: center;
@@ -294,12 +298,12 @@ button {
     margin-top: 20px;
   }
   div.things-which-matter div.things-flex div.thing-2 img {
-    height: 190px;
+    height: 160px;
   }
 
   div.things-which-matter div.things-flex div.thing-3 img {
     margin-top: 10px;
-    height: 170px;
+    height: 140px;
   }
 
   div.things-which-matter div.things-flex div.thing-3 h4 {
@@ -311,18 +315,18 @@ button {
   div.email-input {
     display: flex;
     margin-top: 100px;
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content: center;
   }
 
   div.email-input div.email {
-    width: 50%;
+    width: 30%;
   }
 
   div.email-input div.email input#email {
-    width: 70%;
-    padding: 20px 20px;
+    width: 100%;
+    padding: 15px 15px;
     border: 6px solid var(--base-pink-1);
     border-radius: 12px;
     background-color: var(--base-black);
@@ -330,7 +334,7 @@ button {
 
   ::placeholder {
     font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
+    font-size: large;
     font-weight: 600;
     text-align: left;
     vertical-align: middle;
@@ -338,7 +342,8 @@ button {
   }
 
   div.email-input div.submit-button {
-    width: 10%;
+    text-align: center;
+    width: 20%;
   }
 
   div.email-input div.submit-button button#submit {
@@ -349,7 +354,7 @@ button {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: x-large;
+    font-size: large;
     border-radius: 12px;
     vertical-align: middle;
   }
@@ -382,6 +387,10 @@ button {
     margin-left: 20px;
   }
 
+  div.footer div.logo img{
+    height: 75px;
+  }
+
   div.footer div.socials {
     width: 50%;
   }
@@ -397,20 +406,20 @@ button {
   }
 
   div.socials ul.socials-list li#instagram img {
-    height: 50px;
+    height: 35px;
   }
 
   div.socials ul.socials-list li#linkedin img {
-    height: 50px;
+    height: 35px;
   }
 
   div.socials ul.socials-list li#twitter img {
     margin-top: 2px;
-    height: 50px;
+    height: 35px;
   }
 
   div.socials ul.socials-list li#mail img {
-    height: 55px;
+    height: 40px;
   }
 }
 
@@ -504,18 +513,18 @@ button {
   div.email-input {
     display: flex;
     margin-top: 100px;
-    text-align: center;
+    text-align: left;
     align-items: center;
     justify-content: center;
   }
 
   div.email-input div.email {
-    width: 50%;
+    width: 30%;
   }
 
   div.email-input div.email input#email {
-    width: 70%;
-    padding: 20px 20px;
+    width: 100%;
+    padding: 15px 15px;
     border: 6px solid var(--base-pink-1);
     border-radius: 12px;
     background-color: var(--base-black);
@@ -523,7 +532,7 @@ button {
 
   ::placeholder {
     font-family: 'Montserrat', sans-serif;
-    font-size: x-large;
+    font-size: large;
     font-weight: 600;
     text-align: left;
     vertical-align: middle;
@@ -531,8 +540,8 @@ button {
   }
 
   div.email-input div.submit-button {
-    width: 30%;
     text-align: center;
+    width: 20%;
   }
 
   div.email-input div.submit-button button#submit {
@@ -543,7 +552,7 @@ button {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: x-large;
+    font-size: large;
     border-radius: 12px;
     vertical-align: middle;
   }
@@ -557,6 +566,11 @@ button {
     justify-content: center;
     align-items: center;
   }
+    
+  div.email-cta h3#email-text{
+      vertical-align: middle;
+      width: 70%;
+  }
 
   /*Footer*/
 
@@ -569,6 +583,10 @@ button {
   div.footer div.logo {
     width: 50%;
     margin-left: 20px;
+  }
+
+  div.footer div.logo img{
+    height: 75px;
   }
 
   div.footer div.socials {
@@ -586,20 +604,20 @@ button {
   }
 
   div.socials ul.socials-list li#instagram img {
-    height: 50px;
+    height: 35px;
   }
 
   div.socials ul.socials-list li#linkedin img {
-    height: 50px;
+    height: 35px;
   }
 
   div.socials ul.socials-list li#twitter img {
     margin-top: 2px;
-    height: 50px;
+    height: 35px;
   }
 
   div.socials ul.socials-list li#mail img {
-    height: 55px;
+    height: 40px;
   }
 }
 
