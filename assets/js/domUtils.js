@@ -3,7 +3,7 @@
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-analytics.js";
-import { getDatabase, ref, push, set } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js";
+import { getDatabase, ref, set } from "https://www.gstatic.com/firebasejs/9.8.1/firebase-database.js";
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -24,7 +24,6 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-const database = getDatabase(app);
 
 //Page Functionality
 
@@ -35,7 +34,7 @@ export function setupPageFunctionality() {
   document.getElementById('home').onclick = overlayHandler.bind(this)
   document.getElementById('privacy').onclick = overlayHandler.bind(this)
   document.getElementById('download').onclick = overlayHandler.bind(this)
-  document.getElementById('submit').onclick= collectUserEmail.bind(this)
+  document.getElementById('submit').onclick = collectUserEmail.bind(this)
 }
 
 //Navbar
@@ -59,14 +58,11 @@ function overlayHandler() {
 
 //Email Input
 
-const postListRef = ref(database, 'users');
-const newPostRef = push(postListRef);
-
-//Collect emails
-
 function collectUserEmail() {
-  var email = document.getElementById("email");
-  set(newPostRef, {
+  const database = getDatabase()
+  const reference = ref(database, 'users/')
+  var email = document.getElementById("email").value 
+  set(reference, {
     email: email,
-  });
+  })
 }
