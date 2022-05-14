@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Passion8-App/Passion8-App.github.io/issues"
   },
-  "homepage": "https://github.com/Passion8-App/Passion8-App.github.io#readme"
+  "homepage": "https://github.com/Passion8-App/Passion8-App.github.io#readme",
+  "dependencies": {
+    "firebase": "^9.8.1"
+  }
 }
