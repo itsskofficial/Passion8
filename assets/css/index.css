@@ -230,6 +230,9 @@ button {
 
   h1 {
     color: var(--pure-white);
+    font-size: 50px;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: bold;
   }
 
   h2 {
@@ -252,6 +255,29 @@ button {
     color: var(--base-pink-1);
     font-size: 25px;
     font-weight: 600;
+  }
+
+  /*Tagline*/
+
+  div.tagline{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.tagline div.tagline-text{
+    width: 80%;
+  }
+
+  div.tagline div.tagline-text h1{
+    text-align: center;
+  }
+
+  div.tagline div.tagline-img{
+    margin-top: 100px
   }
 
   /*Features*/
@@ -543,7 +569,9 @@ button {
 
   h1 {
     color: var(--pure-white);
-    text-align: center;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 40px;
+    font-weight: bold;
   }
 
   h2 {
@@ -567,6 +595,33 @@ button {
     color: var(--base-pink-1);
     font-size: 25px;
     font-weight: 600;
+  }
+
+  /*Tagline*/
+
+  div.tagline{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.tagline div.tagline-text{
+    width: 80%;
+  }
+
+  div.tagline div.tagline-text h1{
+    text-align: center;
+  }
+
+  div.tagline div.tagline-img{
+    margin-top: 100px;
+  }
+
+  div.tagline div.tagline-img img{
+    height: 750px;
   }
 
     /*Features*/
@@ -860,7 +915,9 @@ button {
 
   h1 {
     color: var(--pure-white);
-    text-align: center;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
   }
 
   h2 {
@@ -908,6 +965,33 @@ button {
     .passion__navbar-mobileScreen {
       display: block;
     }
+
+  /*Tagline*/
+
+  div.tagline{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.tagline div.tagline-text{
+    width: 80%;
+  }
+
+  div.tagline div.tagline-text h1{
+    text-align: center;
+  }
+
+  div.tagline div.tagline-img{
+    margin-top: 100px;
+  }
+
+  div.tagline div.tagline-img img{
+    height: 600px;
+  }
 
   /*Features*/
 
@@ -1199,7 +1283,9 @@ button {
 
   h1 {
     color: var(--pure-white);
-    text-align: center;
+    font-family: 'Quicksand',sans-serif;
+    font-size: 30px;
+    font-weight: bold;
   }
 
   h2 {
@@ -1246,6 +1332,33 @@ button {
 
   .passion__navbar-mobileScreen {
     display: block;
+  }
+
+  /*Tagline*/
+
+  div.tagline{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.tagline div.tagline-text{
+    width: 80%;
+  }
+
+  div.tagline div.tagline-text h1{
+    text-align: center;
+  }
+
+  div.tagline div.tagline-img{
+    margin-top: 100px;
+  }
+
+  div.tagline div.tagline-img img{
+    height: 250px;
   }
 
   /*Features*/
