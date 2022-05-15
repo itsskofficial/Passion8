@@ -1,6 +1,7 @@
 /* --------------- Design System Setup --------------- */
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
 
 :root {
   --pure-white: #fff;
@@ -231,7 +232,7 @@ button {
   h1 {
     color: var(--pure-white);
     font-size: 50px;
-    font-family: 'Quicksand',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: bold;
   }
 
@@ -240,7 +241,6 @@ button {
     color: var(--pure-white);
     font-size: 30px;
     font-weight: 600;
-    text-align: center;
   }
 
   h3 {
@@ -259,6 +259,15 @@ button {
     font-size: 25px;
     font-weight: 600;
   }
+
+  p {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pure-white);
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  /*--------Landing Page----------*/
 
   /*Tagline*/
 
@@ -566,6 +575,38 @@ button {
   div.socials ul.socials-list li#mail img {
     height: 40px;
   }
+
+  /*----------Privacy Policy------------*/
+
+  div.privacy-policy div.heading {
+    text-align: center;
+  }
+
+  div.privacy-policy div.policy {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  div.privacy-policy div.policy h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  div.privacy-policy div.policy ul li::before {
+    content: "\2022"; 
+    color: var(--pure-white); 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+  div.privacy-policy div.policy li{
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pure-white);
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
 
 @media only screen and (min-width: 993px) and (max-width:1200px)  {
@@ -573,7 +614,7 @@ button {
 
   h1 {
     color: var(--pure-white);
-    font-family: 'Quicksand',sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 40px;
     font-weight: bold;
   }
@@ -603,6 +644,15 @@ button {
     font-size: 25px;
     font-weight: 600;
   }
+
+  p {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pure-white);
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  /*--------Landing Page----------*/
 
   /*Tagline*/
 
@@ -924,7 +974,7 @@ button {
 
   h1 {
     color: var(--pure-white);
-    font-family: 'Quicksand',sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 30px;
     font-weight: bold;
   }
@@ -955,6 +1005,13 @@ button {
     font-weight: 600;
   }
 
+  p {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pure-white);
+    font-size: 15px;
+    font-weight: 600;
+  }
+
     /*Navbar*/
 
     .nav__bar {
@@ -977,6 +1034,8 @@ button {
     .passion__navbar-mobileScreen {
       display: block;
     }
+
+  /*--------Landing Page----------*/
 
   /*Tagline*/
 
@@ -1297,7 +1356,7 @@ button {
 
   h1 {
     color: var(--pure-white);
-    font-family: 'Quicksand',sans-serif;
+    font-family: 'Poppins',sans-serif;
     font-size: 30px;
     font-weight: bold;
   }
@@ -1328,6 +1387,13 @@ button {
     font-weight: 600;
   }
 
+  p {
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pure-white);
+    font-size: 12px;
+    font-weight: 600;
+  }
+
   /*Navbar*/
 
   .nav__bar {
@@ -1350,6 +1416,8 @@ button {
   .passion__navbar-mobileScreen {
     display: block;
   }
+
+  /*--------Landing Page----------*/
 
   /*Tagline*/
 
