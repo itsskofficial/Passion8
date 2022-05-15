@@ -56,7 +56,6 @@ function overlayHandler() {
   }
 }
 
-
 //Email Input
 
 function collectUserEmail() {

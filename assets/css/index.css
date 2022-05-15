@@ -252,7 +252,10 @@ button {
 
   h4 {
     font-family: 'Quicksand', sans-serif;
-    color: var(--base-pink-1);
+    background: var(--grad-horizontal);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
     font-size: 25px;
     font-weight: 600;
   }
@@ -468,8 +471,9 @@ button {
   div.email-input div.email input#email {
     width: 100%;
     padding: 15px 15px;
-    border: 6px solid var(--base-pink-1);
-    border-radius: 12px;
+    border: 7px solid ;
+    border-image: url('/assets/img/border.svg');
+    border-image-slice: 10;
     background-color: var(--base-black);
   }
 
@@ -489,7 +493,7 @@ button {
 
   div.email-input div.submit-button button#submit {
     color: var(--pure-white);
-    background-color: var(--base-pink-1);
+    background-image: var(--grad-horizontal);
     padding: 20px 40px;
     text-align: center;
     text-decoration: none;
@@ -592,7 +596,10 @@ button {
 
   h4 {
     font-family: 'Quicksand', sans-serif;
-    color: var(--base-pink-1);
+    background: var(--grad-horizontal);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
     font-size: 25px;
     font-weight: 600;
   }
@@ -814,7 +821,9 @@ button {
   div.email-input div.email input#email {
     width: 100%;
     padding: 15px 15px;
-    border: 6px solid var(--base-pink-1);
+    border: 7px solid ;
+    border-image: url('/assets/img/border.svg');
+    border-image-slice: 10;
     border-radius: 12px;
     background-color: var(--base-black);
   }
@@ -835,7 +844,7 @@ button {
 
   div.email-input div.submit-button button#submit {
     color: var(--pure-white);
-    background-color: var(--base-pink-1);
+    background-image: var(--grad-horizontal);
     padding: 20px 40px;
     text-align: center;
     text-decoration: none;
@@ -938,7 +947,10 @@ button {
 
   h4 {
     font-family: 'Quicksand', sans-serif;
-    color: var(--base-pink-1);
+    background: var(--grad-horizontal);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
     font-size: 20px;
     font-weight: 600;
   }
@@ -1184,7 +1196,9 @@ button {
   div.email-input div.email input#email {
     width: 80%;
     padding: 20px 20px;
-    border: 6px solid var(--base-pink-1);
+    border: 7px solid ;
+    border-image: url('/assets/img/border.svg');
+    border-image-slice: 10;
     border-radius: 12px;
     background-color: var(--base-black);
   }
@@ -1205,7 +1219,7 @@ button {
 
   div.email-input div.submit-button button#submit {
     color: var(--pure-white);
-    background-color: var(--base-pink-1);
+    background-image: var(--grad-horizontal);
     padding: 20px 40px;
     text-align: center;
     text-decoration: none;
@@ -1306,7 +1320,10 @@ button {
 
   h4 {
     font-family: 'Quicksand', sans-serif;
-    color: var(--base-pink-1);
+    background: var(--grad-horizontal);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
     font-size: 15px;
     font-weight: 600;
   }
@@ -1563,7 +1580,9 @@ button {
   div.email-input div.email input#email {
     width: 80%;
     padding: 10px 10px;
-    border: 6px solid var(--base-pink-1);
+    border: 7px solid ;
+    border-image: url('/assets/img/border.svg');
+    border-image-slice: 10;
     border-radius: 12px;
     background-color: var(--base-black);
   }
@@ -1585,7 +1604,7 @@ button {
 
   div.email-input div.submit-button button#submit {
     color: var(--pure-white);
-    background-color: var(--base-pink-1);
+    background-image: var(--grad-horizontal);
     padding: 15px 30px;
     text-align: center;
     text-decoration: none;
