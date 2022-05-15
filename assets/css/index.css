@@ -371,8 +371,6 @@ button {
   } 
 
 
-
-
   /*Things Which Matter*/
 
   div.things-which-matter {
@@ -570,6 +568,125 @@ button {
     font-size: 25px;
     font-weight: 600;
   }
+
+    /*Features*/
+
+    div.features {
+      display: flex;
+      flex-direction: column;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+  
+    div.features div.feature-1{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    div.features div.feature-1 div.feature-1-text{
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      justify-content: left;
+      align-items: left;
+    }
+  
+    div.features div.feature-1 div.feature-1-text h4{
+      margin-bottom: 40px;
+      font-size: 25px;
+    }
+  
+    div.features div.feature-1 div.feature-1-text h3{
+      font-size: 15px;
+      text-align: left;
+    }
+  
+    div.features div.feature-1 div.feature-1-img{
+      display: flex;
+      width: 30%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    div.features div.feature-1 div.feature-1-img img{
+      height: 150px;
+    } 
+  
+    div.features div.feature-2{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    div.features div.feature-2 div.feature-2-text{
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      justify-content: left;
+      align-items: left;
+    }
+  
+    div.features div.feature-2 div.feature-2-text h4{
+      margin-bottom: 40px;
+      font-size: 25px;
+    }
+  
+    div.features div.feature-2 div.feature-2-text h3{
+      font-size: 15px;
+      text-align: left;
+    }
+  
+    div.features div.feature-2 div.feature-2-img{
+      display: flex;
+      width: 30%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    div.features div.feature-2 div.feature-2-img img{
+      height: 150px;
+    } 
+  
+    div.features div.feature-3{
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+  
+    div.features div.feature-3 div.feature-3-text{
+      display: flex;
+      flex-direction: column;
+      width: 40%;
+      justify-content: left;
+      align-items: left;
+    }
+  
+    div.features div.feature-3 div.feature-3-text h4{
+      margin-bottom: 40px;
+      font-size: 25px;
+    }
+  
+    div.features div.feature-3 div.feature-3-text h3{
+      font-size: 15px;
+      text-align: left;
+    }
+  
+    div.features div.feature-3 div.feature-3-img{
+      display: flex;
+      width: 30%;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    div.features div.feature-3 div.feature-3-img img{
+      height: 150px;
+    } 
 
   /*Things Which Matter*/
 
@@ -792,6 +909,125 @@ button {
       display: block;
     }
 
+  /*Features*/
+
+  div.features {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  div.features div.feature-1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-1 div.feature-1-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div.features div.feature-1 div.feature-1-text h4{
+    margin-bottom: 40px;
+    font-size: 22px;
+  }
+
+  div.features div.feature-1 div.feature-1-text h3{
+    font-size: 12px;
+    text-align: left;
+  }
+
+  div.features div.feature-1 div.feature-1-img{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-1 div.feature-1-img img{
+    height: 125px;
+  } 
+
+  div.features div.feature-2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  div.features div.feature-2 div.feature-2-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div.features div.feature-2 div.feature-2-text h4{
+    margin-bottom: 40px;
+    font-size: 22px;
+  }
+
+  div.features div.feature-2 div.feature-2-text h3{
+    font-size: 12px;
+    text-align: left;
+  }
+
+  div.features div.feature-2 div.feature-2-img{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-2 div.feature-2-img img{
+    height: 125px;
+  } 
+
+  div.features div.feature-3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  div.features div.feature-3 div.feature-3-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div.features div.feature-3 div.feature-3-text h4{
+    margin-bottom: 40px;
+    font-size: 22px;
+  }
+
+  div.features div.feature-3 div.feature-3-text h3{
+    font-size: 12px;
+    text-align: left;
+  }
+
+  div.features div.feature-3 div.feature-3-img{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-3 div.feature-3-img img{
+    height: 125px;
+  } 
+
 
   /*Things Which Matter*/
 
@@ -839,7 +1075,7 @@ button {
   }
 
   div.things-which-matter div.things-flex div.thing-3 img {
-    margin-top: 50px;
+    margin-top: 30px;
     height: 110px;
   }
 
@@ -1011,6 +1247,134 @@ button {
   .passion__navbar-mobileScreen {
     display: block;
   }
+
+  /*Features*/
+
+  div.heading-2#features-heading{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  div.features {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-bottom: 75px;
+  }
+
+  div.features div.feature-1{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-1 div.feature-1-text{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  div.features div.feature-1 div.feature-1-text h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  div.features div.feature-1 div.feature-1-text h3{
+    font-size: 10px;
+  }
+
+  div.features div.feature-1 div.feature-1-img{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-1 div.feature-1-img img{
+    height: 125px;
+  } 
+
+  div.features div.feature-2{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  div.features div.feature-2 div.feature-2-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-2 div.feature-2-text h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+
+  div.features div.feature-2 div.feature-2-text h3{
+    font-size: 10px;
+  }
+
+  div.features div.feature-2 div.feature-2-img{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-2 div.feature-2-img img{
+    height: 125px;
+  } 
+
+  div.features div.feature-3{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  div.features div.feature-3 div.feature-3-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-3 div.feature-3-text h4{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+
+  div.features div.feature-3 div.feature-3-text h3{
+    font-size: 10px;
+  }
+
+  div.features div.feature-3 div.feature-3-img{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-3 div.feature-3-img img{
+    height: 125px;
+  } 
 
   /*Things Which Matter*/
 
