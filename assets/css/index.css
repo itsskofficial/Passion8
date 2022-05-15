@@ -230,7 +230,6 @@ button {
 
   h1 {
     color: var(--pure-white);
-    text-align: center;
   }
 
   h2 {
@@ -246,7 +245,6 @@ button {
     color: var(--pure-white);
     font-size: 25px;
     font-weight: 600;
-    text-align: center;
   }
 
   h4 {
@@ -255,6 +253,125 @@ button {
     font-size: 25px;
     font-weight: 600;
   }
+
+  /*Features*/
+
+  div.features {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  div.features div.feature-1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-1 div.feature-1-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div.features div.feature-1 div.feature-1-text h4{
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+
+  div.features div.feature-1 div.feature-1-text h3{
+    font-size: 20px;
+  }
+
+  div.features div.feature-1 div.feature-1-img{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-1 div.feature-1-img img{
+    height: 200px;
+  } 
+
+  div.features div.feature-2{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  div.features div.feature-2 div.feature-2-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div.features div.feature-2 div.feature-2-text h4{
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+
+  div.features div.feature-2 div.feature-2-text h3{
+    font-size: 20px;
+  }
+
+  div.features div.feature-2 div.feature-2-img{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-2 div.feature-2-img img{
+    height: 200px;
+  } 
+
+  div.features div.feature-3{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  div.features div.feature-3 div.feature-3-text{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div.features div.feature-3 div.feature-3-text h4{
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+
+  div.features div.feature-3 div.feature-3-text h3{
+    font-size: 20px;
+  }
+
+  div.features div.feature-3 div.feature-3-img{
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-3 div.feature-3-img img{
+    height: 200px;
+  } 
+
+
+
 
   /*Things Which Matter*/
 
