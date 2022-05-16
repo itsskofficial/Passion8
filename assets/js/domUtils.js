@@ -62,8 +62,7 @@ function overlayHandler() {
 //Email Input
 
 function collectUserEmail() {
-  var email = document.getElementById("email");
   set(ref(database, 'users/'), {
-    email: email,
+    email: document.getElementById("email").value
   });
 }
