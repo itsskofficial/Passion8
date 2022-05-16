@@ -98,13 +98,13 @@ button {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.101);
   animation: animate 25s linear infinite;
   bottom: -150px;
   
 }
 
 .circles li:nth-child(1){
+  background: var(--base-pink-1);
   left: 25%;
   width: 80px;
   height: 80px;
@@ -113,6 +113,7 @@ button {
 
 
 .circles li:nth-child(2){
+  background: var(--base-purple);
   left: 10%;
   width: 20px;
   height: 20px;
@@ -121,6 +122,7 @@ button {
 }
 
 .circles li:nth-child(3){
+  background: var(--base-pink-2);
   left: 70%;
   width: 20px;
   height: 20px;
@@ -128,6 +130,7 @@ button {
 }
 
 .circles li:nth-child(4){
+  background: var(--base-pink-1);
   left: 40%;
   width: 60px;
   height: 60px;
@@ -136,6 +139,7 @@ button {
 }
 
 .circles li:nth-child(5){
+  background: var(--base-purple);
   left: 65%;
   width: 20px;
   height: 20px;
@@ -143,6 +147,7 @@ button {
 }
 
 .circles li:nth-child(6){
+  background: var(--base-pink-2);
   left: 75%;
   width: 110px;
   height: 110px;
@@ -150,6 +155,7 @@ button {
 }
 
 .circles li:nth-child(7){
+  background: var(--base-pink-1);
   left: 35%;
   width: 150px;
   height: 150px;
@@ -157,6 +163,7 @@ button {
 }
 
 .circles li:nth-child(8){
+  background: var(--base-purple);
   left: 50%;
   width: 25px;
   height: 25px;
@@ -165,6 +172,7 @@ button {
 }
 
 .circles li:nth-child(9){
+  background: var(--base-pink-2);
   left: 20%;
   width: 15px;
   height: 15px;
@@ -173,6 +181,7 @@ button {
 }
 
 .circles li:nth-child(10){
+  background: var(--base-purple);
   left: 85%;
   width: 150px;
   height: 150px;
@@ -181,6 +190,7 @@ button {
 }
 
 .circles li:nth-child(11){
+  background: var(--base-pink-1);
   left: 25%;
   width: 80px;
   height: 80px;
@@ -189,6 +199,7 @@ button {
 
 
 .circles li:nth-child(12){
+  background: var(--base-purple);
   left: 10%;
   width: 20px;
   height: 20px;
@@ -197,6 +208,7 @@ button {
 }
 
 .circles li:nth-child(13){
+  background: var(--base-pink-2);
   left: 70%;
   width: 20px;
   height: 20px;
@@ -204,6 +216,7 @@ button {
 }
 
 .circles li:nth-child(14){
+  background: var(--base-pink-1);
   left: 40%;
   width: 60px;
   height: 60px;
@@ -212,6 +225,7 @@ button {
 }
 
 .circles li:nth-child(15){
+  background: var(--base-purple);
   left: 65%;
   width: 20px;
   height: 20px;
@@ -219,6 +233,7 @@ button {
 }
 
 .circles li:nth-child(16){
+  background: var(--base-pink-2);
   left: 75%;
   width: 110px;
   height: 110px;
@@ -226,6 +241,7 @@ button {
 }
 
 .circles li:nth-child(17){
+  background: var(--base-pink-1);
   left: 35%;
   width: 150px;
   height: 150px;
@@ -233,6 +249,7 @@ button {
 }
 
 .circles li:nth-child(18){
+  background: var(--base-purple);
   left: 50%;
   width: 25px;
   height: 25px;
@@ -241,6 +258,7 @@ button {
 }
 
 .circles li:nth-child(19){
+  background: var(--base-pink-2);
   left: 20%;
   width: 15px;
   height: 15px;
@@ -249,6 +267,7 @@ button {
 }
 
 .circles li:nth-child(20){
+  background: var(--base-pink-1);
   left: 85%;
   width: 150px;
   height: 150px;
