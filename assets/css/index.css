@@ -76,14 +76,14 @@ button {
 }
 
 .area{
+  z-index: -999;
   background: var(--base-black);  
   width: 100%;
   height: 100%;
-  
- 
 }
 
 .circles{
+  z-index: -999;
   position:fixed;
   top: 0;
   left: 0;
@@ -93,6 +93,7 @@ button {
 }
 
 .circles li{
+  z-index: -999;
   position: absolute;
   display: block;
   list-style: none;
@@ -736,10 +737,11 @@ button {
     font-size: large;
     border-radius: 12px;
     vertical-align: middle;
+    cursor: pointer;
   }
 
   div.email-input div.submit-button button#submit:hover {
-    background-position: right center;
+    background-position: left center;
   }
 
   div.email-cta{
