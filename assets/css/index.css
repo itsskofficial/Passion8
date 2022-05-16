@@ -967,6 +967,38 @@ button {
   div.socials ul.socials-list li#mail img {
     height: 40px;
   }
+
+  /*----------Privacy Policy------------*/
+
+  div.privacy-policy div.heading {
+    text-align: center;
+  }
+
+  div.privacy-policy div.policy {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  div.privacy-policy div.policy h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  div.privacy-policy div.policy ul li::before {
+    content: "\2022"; 
+    color: var(--pure-white); 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+  div.privacy-policy div.policy li{
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pure-white);
+    font-size: 20px;
+    font-weight: 600;
+  }
 }
 
 @media only screen and (min-width:601px) and (max-width: 992px) {
@@ -1348,6 +1380,38 @@ button {
 
   div.socials ul.socials-list li#mail img {
     height: 35px;
+  }
+
+  /*----------Privacy Policy------------*/
+
+  div.privacy-policy div.heading {
+    text-align: center;
+  }
+
+  div.privacy-policy div.policy {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  div.privacy-policy div.policy h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  div.privacy-policy div.policy ul li::before {
+    content: "\2022"; 
+    color: var(--pure-white); 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+  div.privacy-policy div.policy li{
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pure-white);
+    font-size: 20px;
+    font-weight: 600;
   }
 }
 
@@ -1743,5 +1807,37 @@ button {
 
   div.socials ul.socials-list li#mail img {
     height: 25px;
+  }
+
+  /*----------Privacy Policy------------*/
+
+  div.privacy-policy div.heading {
+    text-align: center;
+  }
+
+  div.privacy-policy div.policy {
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  div.privacy-policy div.policy h2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  div.privacy-policy div.policy ul li::before {
+    content: "\2022"; 
+    color: var(--pure-white); 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em; 
+  }
+
+  div.privacy-policy div.policy li{
+    font-family: 'Quicksand', sans-serif;
+    color: var(--pure-white);
+    font-size: 20px;
+    font-weight: 600;
   }
 }
