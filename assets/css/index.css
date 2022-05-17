@@ -12,7 +12,7 @@
   --base-purple: #9b41e9;
   --grad-vertical: linear-gradient(to bottom, #e740af 0%, #9a41ea 100%);
   --grad-horizontal: linear-gradient(to right, #e740af 0%, #9a41ea 100%);
-  --screen-height:screen.height;
+  --screen-height: screen.height;
 }
 
 *,
@@ -75,16 +75,16 @@ button {
   background-color: transparent;
 }
 
-.area{
+.area {
   z-index: -999;
-  background: var(--base-black);  
+  background: var(--base-black);
   width: 100%;
   height: 100%;
 }
 
-.circles{
+.circles {
   z-index: -999;
-  position:fixed;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
@@ -92,7 +92,7 @@ button {
   overflow: hidden;
 }
 
-.circles li{
+.circles li {
   z-index: -999;
   position: absolute;
   display: block;
@@ -101,10 +101,9 @@ button {
   height: 20px;
   animation: animate 25s linear infinite;
   bottom: -150px;
-  
 }
 
-.circles li:nth-child(1){
+.circles li:nth-child(1) {
   background: var(--base-pink-1);
   left: 25%;
   width: 80px;
@@ -112,8 +111,7 @@ button {
   animation-delay: 0s;
 }
 
-
-.circles li:nth-child(2){
+.circles li:nth-child(2) {
   background: var(--base-purple);
   left: 10%;
   width: 20px;
@@ -122,7 +120,7 @@ button {
   animation-duration: 12s;
 }
 
-.circles li:nth-child(3){
+.circles li:nth-child(3) {
   background: var(--base-pink-2);
   left: 70%;
   width: 20px;
@@ -130,7 +128,7 @@ button {
   animation-delay: 4s;
 }
 
-.circles li:nth-child(4){
+.circles li:nth-child(4) {
   background: var(--base-pink-1);
   left: 40%;
   width: 60px;
@@ -139,7 +137,7 @@ button {
   animation-duration: 18s;
 }
 
-.circles li:nth-child(5){
+.circles li:nth-child(5) {
   background: var(--base-purple);
   left: 65%;
   width: 20px;
@@ -147,7 +145,7 @@ button {
   animation-delay: 0s;
 }
 
-.circles li:nth-child(6){
+.circles li:nth-child(6) {
   background: var(--base-pink-2);
   left: 75%;
   width: 110px;
@@ -155,7 +153,7 @@ button {
   animation-delay: 3s;
 }
 
-.circles li:nth-child(7){
+.circles li:nth-child(7) {
   background: var(--base-pink-1);
   left: 35%;
   width: 150px;
@@ -163,7 +161,7 @@ button {
   animation-delay: 7s;
 }
 
-.circles li:nth-child(8){
+.circles li:nth-child(8) {
   background: var(--base-purple);
   left: 50%;
   width: 25px;
@@ -172,7 +170,7 @@ button {
   animation-duration: 45s;
 }
 
-.circles li:nth-child(9){
+.circles li:nth-child(9) {
   background: var(--base-pink-2);
   left: 20%;
   width: 15px;
@@ -181,7 +179,7 @@ button {
   animation-duration: 35s;
 }
 
-.circles li:nth-child(10){
+.circles li:nth-child(10) {
   background: var(--base-purple);
   left: 85%;
   width: 150px;
@@ -190,7 +188,7 @@ button {
   animation-duration: 11s;
 }
 
-.circles li:nth-child(11){
+.circles li:nth-child(11) {
   background: var(--base-pink-1);
   left: 25%;
   width: 80px;
@@ -198,8 +196,7 @@ button {
   animation-delay: 0s;
 }
 
-
-.circles li:nth-child(12){
+.circles li:nth-child(12) {
   background: var(--base-purple);
   left: 10%;
   width: 20px;
@@ -208,7 +205,7 @@ button {
   animation-duration: 12s;
 }
 
-.circles li:nth-child(13){
+.circles li:nth-child(13) {
   background: var(--base-pink-2);
   left: 70%;
   width: 20px;
@@ -216,7 +213,7 @@ button {
   animation-delay: 4s;
 }
 
-.circles li:nth-child(14){
+.circles li:nth-child(14) {
   background: var(--base-pink-1);
   left: 40%;
   width: 60px;
@@ -225,7 +222,7 @@ button {
   animation-duration: 18s;
 }
 
-.circles li:nth-child(15){
+.circles li:nth-child(15) {
   background: var(--base-purple);
   left: 65%;
   width: 20px;
@@ -233,7 +230,7 @@ button {
   animation-delay: 0s;
 }
 
-.circles li:nth-child(16){
+.circles li:nth-child(16) {
   background: var(--base-pink-2);
   left: 75%;
   width: 110px;
@@ -241,7 +238,7 @@ button {
   animation-delay: 3s;
 }
 
-.circles li:nth-child(17){
+.circles li:nth-child(17) {
   background: var(--base-pink-1);
   left: 35%;
   width: 150px;
@@ -249,7 +246,7 @@ button {
   animation-delay: 7s;
 }
 
-.circles li:nth-child(18){
+.circles li:nth-child(18) {
   background: var(--base-purple);
   left: 50%;
   width: 25px;
@@ -258,7 +255,7 @@ button {
   animation-duration: 45s;
 }
 
-.circles li:nth-child(19){
+.circles li:nth-child(19) {
   background: var(--base-pink-2);
   left: 20%;
   width: 15px;
@@ -267,7 +264,7 @@ button {
   animation-duration: 35s;
 }
 
-.circles li:nth-child(20){
+.circles li:nth-child(20) {
   background: var(--base-pink-1);
   left: 85%;
   width: 150px;
@@ -275,26 +272,19 @@ button {
   animation-delay: 0s;
   animation-duration: 11s;
 }
-
-
-
-
-
 
 @keyframes animate {
-
-  0%{
-      transform: translateY(0) rotate(0deg);
-      opacity: 1;
-      border-radius: 0;
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
   }
 
-  100%{
-      transform: translateY(-2000px) rotate(720deg);
-      opacity: 0;
-      border-radius: 50%;
+  100% {
+    transform: translateY(-2000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
   }
-
 }
 
 /* ------------------------------ */
@@ -495,7 +485,7 @@ button {
 
   /*Tagline*/
 
-  div.tagline{
+  div.tagline {
     margin-top: 50px;
     margin-bottom: 100px;
     display: flex;
@@ -504,16 +494,16 @@ button {
     align-items: center;
   }
 
-  div.tagline div.tagline-text{
+  div.tagline div.tagline-text {
     width: 80%;
   }
 
-  div.tagline div.tagline-text h1{
+  div.tagline div.tagline-text h1 {
     text-align: center;
   }
 
-  div.tagline div.tagline-img{
-    margin-top: 100px
+  div.tagline div.tagline-img {
+    margin-top: 100px;
   }
 
   /*Features*/
@@ -525,14 +515,14 @@ button {
     margin-bottom: 100px;
   }
 
-  div.features div.feature-1{
+  div.features div.feature-1 {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
   }
 
-  div.features div.feature-1 div.feature-1-text{
+  div.features div.feature-1 div.feature-1-text {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -540,63 +530,27 @@ button {
     align-items: left;
   }
 
-  div.features div.feature-1 div.feature-1-text h4{
+  div.features div.feature-1 div.feature-1-text h4 {
     margin-bottom: 40px;
     font-size: 30px;
   }
 
-  div.features div.feature-1 div.feature-1-text h3{
+  div.features div.feature-1 div.feature-1-text h3 {
     font-size: 20px;
   }
 
-  div.features div.feature-1 div.feature-1-img{
+  div.features div.feature-1 div.feature-1-img {
     display: flex;
     width: 30%;
     justify-content: center;
     align-items: center;
   }
 
-  div.features div.feature-1 div.feature-1-img img{
+  div.features div.feature-1 div.feature-1-img img {
     height: 200px;
-  } 
-
-  div.features div.feature-2{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
   }
 
-  div.features div.feature-2 div.feature-2-text{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    justify-content: left;
-    align-items: left;
-  }
-
-  div.features div.feature-2 div.feature-2-text h4{
-    margin-bottom: 40px;
-    font-size: 30px;
-  }
-
-  div.features div.feature-2 div.feature-2-text h3{
-    font-size: 20px;
-  }
-
-  div.features div.feature-2 div.feature-2-img{
-    display: flex;
-    width: 30%;
-    justify-content: center;
-    align-items: center;
-  }
-
-  div.features div.feature-2 div.feature-2-img img{
-    height: 200px;
-  } 
-
-  div.features div.feature-3{
+  div.features div.feature-2 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -604,7 +558,7 @@ button {
     margin-top: 20px;
   }
 
-  div.features div.feature-3 div.feature-3-text{
+  div.features div.feature-2 div.feature-2-text {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -612,26 +566,61 @@ button {
     align-items: left;
   }
 
-  div.features div.feature-3 div.feature-3-text h4{
+  div.features div.feature-2 div.feature-2-text h4 {
     margin-bottom: 40px;
     font-size: 30px;
   }
 
-  div.features div.feature-3 div.feature-3-text h3{
+  div.features div.feature-2 div.feature-2-text h3 {
     font-size: 20px;
   }
 
-  div.features div.feature-3 div.feature-3-img{
+  div.features div.feature-2 div.feature-2-img {
     display: flex;
     width: 30%;
     justify-content: center;
     align-items: center;
   }
 
-  div.features div.feature-3 div.feature-3-img img{
+  div.features div.feature-2 div.feature-2-img img {
     height: 200px;
-  } 
+  }
 
+  div.features div.feature-3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  div.features div.feature-3 div.feature-3-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div.features div.feature-3 div.feature-3-text h4 {
+    margin-bottom: 40px;
+    font-size: 30px;
+  }
+
+  div.features div.feature-3 div.feature-3-text h3 {
+    font-size: 20px;
+  }
+
+  div.features div.feature-3 div.feature-3-img {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-3 div.feature-3-img img {
+    height: 200px;
+  }
 
   /*Things Which Matter*/
 
@@ -662,7 +651,7 @@ button {
     margin-right: 20px;
   }
 
-  div.things-which-matter div.things-flex div.thing-1 img{
+  div.things-which-matter div.things-flex div.thing-1 img {
     height: 150px;
   }
 
@@ -689,7 +678,7 @@ button {
 
   /*Email Input*/
 
-  div.email-input {
+  form.email-input {
     display: flex;
     margin-top: 100px;
     text-align: left;
@@ -697,17 +686,18 @@ button {
     justify-content: center;
   }
 
-  div.email-input div.email {
+  form.email-input div.email {
     width: 30%;
   }
 
-  div.email-input div.email input#email {
+  form.email-input div.email input#email {
     width: 100%;
     padding: 15px 15px;
-    border: 7px solid ;
+    border: 4px solid;
     border-image: url('/assets/img/border.svg');
     border-image-slice: 10;
     background-color: var(--base-black);
+    color: var(--pure-white);
   }
 
   ::placeholder {
@@ -719,12 +709,12 @@ button {
     color: var(--pure-white);
   }
 
-  div.email-input div.submit-button {
+  form.email-input div.submit-button {
     text-align: center;
     width: 20%;
   }
 
-  div.email-input div.submit-button button#submit {
+  form.email-input div.submit-button button#submit {
     color: var(--pure-white);
     background-image: var(--grad-horizontal);
     background-size: 100% auto;
@@ -740,23 +730,23 @@ button {
     cursor: pointer;
   }
 
-  div.email-input div.submit-button button#submit:hover {
+  form.email-input div.submit-button button#submit:hover {
     background-position: left center;
   }
 
-  div.email-cta{
+  div.email-cta {
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
-    
-  div.email-cta h3#email-text{
-      vertical-align: middle;
-      width: 70%;
+
+  div.email-cta h3#email-text {
+    vertical-align: middle;
+    width: 70%;
   }
 
   /*Footer*/
@@ -772,7 +762,7 @@ button {
     margin-left: 20px;
   }
 
-  div.footer div.logo img{
+  div.footer div.logo img {
     height: 75px;
   }
 
@@ -819,20 +809,20 @@ button {
     margin-right: 50px;
   }
 
-  div.privacy-policy div.policy h2{
+  div.privacy-policy div.policy h2 {
     margin-top: 50px;
     margin-bottom: 50px;
   }
 
   div.privacy-policy div.policy ul li::before {
-    content: "\2022"; 
-    color: var(--pure-white); 
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -1em; 
+    content: '\2022';
+    color: var(--pure-white);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
   }
 
-  div.privacy-policy div.policy li{
+  div.privacy-policy div.policy li {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
     font-size: 20px;
@@ -840,12 +830,30 @@ button {
   }
 }
 
-@media only screen and (min-width: 993px) and (max-width:1200px)  {
+.alertbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  display: none;
+}
+.alert {
+  background-color: var(--base-pink-1);
+  color: black;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+}
+#email {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
   /*Common Elements*/
 
   h1 {
     color: var(--pure-white);
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
     font-weight: bold;
   }
@@ -887,7 +895,7 @@ button {
 
   /*Tagline*/
 
-  div.tagline{
+  div.tagline {
     margin-top: 50px;
     margin-bottom: 100px;
     display: flex;
@@ -896,140 +904,140 @@ button {
     align-items: center;
   }
 
-  div.tagline div.tagline-text{
+  div.tagline div.tagline-text {
     width: 80%;
   }
 
-  div.tagline div.tagline-text h1{
+  div.tagline div.tagline-text h1 {
     text-align: center;
   }
 
-  div.tagline div.tagline-img{
+  div.tagline div.tagline-img {
     margin-top: 100px;
   }
 
-  div.tagline div.tagline-img img{
+  div.tagline div.tagline-img img {
     height: 750px;
   }
 
-    /*Features*/
+  /*Features*/
 
-    div.features {
-      display: flex;
-      flex-direction: column;
-      margin-top: 100px;
-      margin-bottom: 100px;
-    }
-  
-    div.features div.feature-1{
-      display: flex;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    div.features div.feature-1 div.feature-1-text{
-      display: flex;
-      flex-direction: column;
-      width: 40%;
-      justify-content: left;
-      align-items: left;
-    }
-  
-    div.features div.feature-1 div.feature-1-text h4{
-      margin-bottom: 40px;
-      font-size: 25px;
-    }
-  
-    div.features div.feature-1 div.feature-1-text h3{
-      font-size: 15px;
-      text-align: left;
-    }
-  
-    div.features div.feature-1 div.feature-1-img{
-      display: flex;
-      width: 30%;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    div.features div.feature-1 div.feature-1-img img{
-      height: 150px;
-    } 
-  
-    div.features div.feature-2{
-      display: flex;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-      margin-top: 20px;
-    }
-  
-    div.features div.feature-2 div.feature-2-text{
-      display: flex;
-      flex-direction: column;
-      width: 40%;
-      justify-content: left;
-      align-items: left;
-    }
-  
-    div.features div.feature-2 div.feature-2-text h4{
-      margin-bottom: 40px;
-      font-size: 25px;
-    }
-  
-    div.features div.feature-2 div.feature-2-text h3{
-      font-size: 15px;
-      text-align: left;
-    }
-  
-    div.features div.feature-2 div.feature-2-img{
-      display: flex;
-      width: 30%;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    div.features div.feature-2 div.feature-2-img img{
-      height: 150px;
-    } 
-  
-    div.features div.feature-3{
-      display: flex;
-      width: 100%;
-      justify-content: center;
-      align-items: center;
-      margin-top: 20px;
-    }
-  
-    div.features div.feature-3 div.feature-3-text{
-      display: flex;
-      flex-direction: column;
-      width: 40%;
-      justify-content: left;
-      align-items: left;
-    }
-  
-    div.features div.feature-3 div.feature-3-text h4{
-      margin-bottom: 40px;
-      font-size: 25px;
-    }
-  
-    div.features div.feature-3 div.feature-3-text h3{
-      font-size: 15px;
-      text-align: left;
-    }
-  
-    div.features div.feature-3 div.feature-3-img{
-      display: flex;
-      width: 30%;
-      justify-content: center;
-      align-items: center;
-    }
-  
-    div.features div.feature-3 div.feature-3-img img{
-      height: 150px;
-    } 
+  div.features {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  div.features div.feature-1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-1 div.feature-1-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div.features div.feature-1 div.feature-1-text h4 {
+    margin-bottom: 40px;
+    font-size: 25px;
+  }
+
+  div.features div.feature-1 div.feature-1-text h3 {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  div.features div.feature-1 div.feature-1-img {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-1 div.feature-1-img img {
+    height: 150px;
+  }
+
+  div.features div.feature-2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  div.features div.feature-2 div.feature-2-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div.features div.feature-2 div.feature-2-text h4 {
+    margin-bottom: 40px;
+    font-size: 25px;
+  }
+
+  div.features div.feature-2 div.feature-2-text h3 {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  div.features div.feature-2 div.feature-2-img {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-2 div.feature-2-img img {
+    height: 150px;
+  }
+
+  div.features div.feature-3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  div.features div.feature-3 div.feature-3-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div.features div.feature-3 div.feature-3-text h4 {
+    margin-bottom: 40px;
+    font-size: 25px;
+  }
+
+  div.features div.feature-3 div.feature-3-text h3 {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  div.features div.feature-3 div.feature-3-img {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-3 div.feature-3-img img {
+    height: 150px;
+  }
 
   /*Things Which Matter*/
 
@@ -1087,7 +1095,7 @@ button {
 
   /*Email Input*/
 
-  div.email-input {
+  form.email-input {
     display: flex;
     margin-top: 100px;
     text-align: left;
@@ -1095,18 +1103,19 @@ button {
     justify-content: center;
   }
 
-  div.email-input div.email {
+  form.email-input div.email {
     width: 30%;
   }
 
-  div.email-input div.email input#email {
+  form.email-input div.email input#email {
     width: 100%;
     padding: 15px 15px;
-    border: 7px solid ;
+    border: 4px solid;
     border-image: url('/assets/img/border.svg');
     border-image-slice: 10;
     border-radius: 12px;
     background-color: var(--base-black);
+    color: var(--pure-white);
   }
 
   ::placeholder {
@@ -1118,12 +1127,12 @@ button {
     color: var(--pure-white);
   }
 
-  div.email-input div.submit-button {
+  form.email-input div.submit-button {
     text-align: center;
     width: 20%;
   }
 
-  div.email-input div.submit-button button#submit {
+  form.email-input div.submit-button button#submit {
     color: var(--pure-white);
     background-image: var(--grad-horizontal);
     padding: 20px 40px;
@@ -1136,19 +1145,19 @@ button {
     vertical-align: middle;
   }
 
-  div.email-cta{
+  div.email-cta {
     display: flex;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 20px;
     margin-right: 20px;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
-    
-  div.email-cta h3#email-text{
-      vertical-align: middle;
-      width: 70%;
+
+  div.email-cta h3#email-text {
+    vertical-align: middle;
+    width: 70%;
   }
 
   /*Footer*/
@@ -1164,7 +1173,7 @@ button {
     margin-left: 20px;
   }
 
-  div.footer div.logo img{
+  div.footer div.logo img {
     height: 75px;
   }
 
@@ -1211,20 +1220,20 @@ button {
     margin-right: 50px;
   }
 
-  div.privacy-policy div.policy h2{
+  div.privacy-policy div.policy h2 {
     margin-top: 50px;
     margin-bottom: 50px;
   }
 
   div.privacy-policy div.policy ul li::before {
-    content: "\2022"; 
-    color: var(--pure-white); 
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -1em; 
+    content: '\2022';
+    color: var(--pure-white);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
   }
 
-  div.privacy-policy div.policy li{
+  div.privacy-policy div.policy li {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
     font-size: 20px;
@@ -1232,12 +1241,12 @@ button {
   }
 }
 
-@media only screen and (min-width:601px) and (max-width: 992px) {
+@media only screen and (min-width: 601px) and (max-width: 992px) {
   /*Common Elements*/
 
   h1 {
     color: var(--pure-white);
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: bold;
   }
@@ -1275,34 +1284,34 @@ button {
     font-weight: 600;
   }
 
-    /*Navbar*/
+  /*Navbar*/
 
-    .nav__bar {
-      position: relative;
-      top: auto;
-    }
-  
-    .title__logo {
-      margin: 1rem 0;
-    }
-  
-    .navbar__buttons {
-      display: none;
-    }
-  
-    .navigation__buttons {
-      margin: 5px 0;
-    }
-  
-    .passion__navbar-mobileScreen {
-      display: block;
-    }
+  .nav__bar {
+    position: relative;
+    top: auto;
+  }
+
+  .title__logo {
+    margin: 1rem 0;
+  }
+
+  .navbar__buttons {
+    display: none;
+  }
+
+  .navigation__buttons {
+    margin: 5px 0;
+  }
+
+  .passion__navbar-mobileScreen {
+    display: block;
+  }
 
   /*--------Landing Page----------*/
 
   /*Tagline*/
 
-  div.tagline{
+  div.tagline {
     margin-top: 50px;
     margin-bottom: 100px;
     display: flex;
@@ -1311,19 +1320,19 @@ button {
     align-items: center;
   }
 
-  div.tagline div.tagline-text{
+  div.tagline div.tagline-text {
     width: 80%;
   }
 
-  div.tagline div.tagline-text h1{
+  div.tagline div.tagline-text h1 {
     text-align: center;
   }
 
-  div.tagline div.tagline-img{
+  div.tagline div.tagline-img {
     margin-top: 100px;
   }
 
-  div.tagline div.tagline-img img{
+  div.tagline div.tagline-img img {
     height: 600px;
   }
 
@@ -1336,14 +1345,14 @@ button {
     margin-bottom: 100px;
   }
 
-  div.features div.feature-1{
+  div.features div.feature-1 {
     display: flex;
     width: 100%;
     justify-content: center;
     align-items: center;
   }
 
-  div.features div.feature-1 div.feature-1-text{
+  div.features div.feature-1 div.feature-1-text {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -1351,65 +1360,28 @@ button {
     align-items: left;
   }
 
-  div.features div.feature-1 div.feature-1-text h4{
+  div.features div.feature-1 div.feature-1-text h4 {
     margin-bottom: 40px;
     font-size: 22px;
   }
 
-  div.features div.feature-1 div.feature-1-text h3{
+  div.features div.feature-1 div.feature-1-text h3 {
     font-size: 12px;
     text-align: left;
   }
 
-  div.features div.feature-1 div.feature-1-img{
+  div.features div.feature-1 div.feature-1-img {
     display: flex;
     width: 30%;
     justify-content: center;
     align-items: center;
   }
 
-  div.features div.feature-1 div.feature-1-img img{
+  div.features div.feature-1 div.feature-1-img img {
     height: 125px;
-  } 
-
-  div.features div.feature-2{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
   }
 
-  div.features div.feature-2 div.feature-2-text{
-    display: flex;
-    flex-direction: column;
-    width: 40%;
-    justify-content: left;
-    align-items: left;
-  }
-
-  div.features div.feature-2 div.feature-2-text h4{
-    margin-bottom: 40px;
-    font-size: 22px;
-  }
-
-  div.features div.feature-2 div.feature-2-text h3{
-    font-size: 12px;
-    text-align: left;
-  }
-
-  div.features div.feature-2 div.feature-2-img{
-    display: flex;
-    width: 30%;
-    justify-content: center;
-    align-items: center;
-  }
-
-  div.features div.feature-2 div.feature-2-img img{
-    height: 125px;
-  } 
-
-  div.features div.feature-3{
+  div.features div.feature-2 {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -1417,7 +1389,7 @@ button {
     margin-top: 20px;
   }
 
-  div.features div.feature-3 div.feature-3-text{
+  div.features div.feature-2 div.feature-2-text {
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -1425,27 +1397,63 @@ button {
     align-items: left;
   }
 
-  div.features div.feature-3 div.feature-3-text h4{
+  div.features div.feature-2 div.feature-2-text h4 {
     margin-bottom: 40px;
     font-size: 22px;
   }
 
-  div.features div.feature-3 div.feature-3-text h3{
+  div.features div.feature-2 div.feature-2-text h3 {
     font-size: 12px;
     text-align: left;
   }
 
-  div.features div.feature-3 div.feature-3-img{
+  div.features div.feature-2 div.feature-2-img {
     display: flex;
     width: 30%;
     justify-content: center;
     align-items: center;
   }
 
-  div.features div.feature-3 div.feature-3-img img{
+  div.features div.feature-2 div.feature-2-img img {
     height: 125px;
-  } 
+  }
 
+  div.features div.feature-3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  div.features div.feature-3 div.feature-3-text {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: left;
+    align-items: left;
+  }
+
+  div.features div.feature-3 div.feature-3-text h4 {
+    margin-bottom: 40px;
+    font-size: 22px;
+  }
+
+  div.features div.feature-3 div.feature-3-text h3 {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  div.features div.feature-3 div.feature-3-img {
+    display: flex;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div.features div.feature-3 div.feature-3-img img {
+    height: 125px;
+  }
 
   /*Things Which Matter*/
 
@@ -1503,7 +1511,7 @@ button {
 
   /*Email Input*/
 
-  div.email-input {
+  form.email-input {
     display: flex;
     margin-top: 100px;
     text-align: center;
@@ -1511,18 +1519,19 @@ button {
     justify-content: center;
   }
 
-  div.email-input div.email {
+  form.email-input div.email {
     width: 50%;
   }
 
-  div.email-input div.email input#email {
+  form.email-input div.email input#email {
     width: 80%;
     padding: 20px 20px;
-    border: 7px solid ;
+    border: 4px solid;
     border-image: url('/assets/img/border.svg');
     border-image-slice: 10;
     border-radius: 12px;
     background-color: var(--base-black);
+    color: var(--pure-white);
   }
 
   ::placeholder {
@@ -1534,12 +1543,12 @@ button {
     color: var(--pure-white);
   }
 
-  div.email-input div.submit-button {
+  form.email-input div.submit-button {
     width: 30%;
     text-align: center;
   }
 
-  div.email-input div.submit-button button#submit {
+  form.email-input div.submit-button button#submit {
     color: var(--pure-white);
     background-image: var(--grad-horizontal);
     padding: 20px 40px;
@@ -1552,15 +1561,15 @@ button {
     vertical-align: middle;
   }
 
-  div.email-cta{
-    margin-top: 100px;
+  div.email-cta {
+    margin-top: 80px;
     margin-left: 20px;
     margin-right: 20px;
     align-items: center;
     justify-content: center;
   }
-  
-  div.email-cta h3#email-text{
+
+  div.email-cta h3#email-text {
     text-align: center;
     vertical-align: middle;
   }
@@ -1625,20 +1634,20 @@ button {
     margin-right: 50px;
   }
 
-  div.privacy-policy div.policy h2{
+  div.privacy-policy div.policy h2 {
     margin-top: 50px;
     margin-bottom: 50px;
   }
 
   div.privacy-policy div.policy ul li::before {
-    content: "\2022"; 
-    color: var(--pure-white); 
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -1em; 
+    content: '\2022';
+    color: var(--pure-white);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
   }
 
-  div.privacy-policy div.policy li{
+  div.privacy-policy div.policy li {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
     font-size: 20px;
@@ -1651,7 +1660,7 @@ button {
 
   h1 {
     color: var(--pure-white);
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: bold;
   }
@@ -1716,7 +1725,7 @@ button {
 
   /*Tagline*/
 
-  div.tagline{
+  div.tagline {
     margin-top: 50px;
     margin-bottom: 100px;
     display: flex;
@@ -1725,25 +1734,25 @@ button {
     align-items: center;
   }
 
-  div.tagline div.tagline-text{
+  div.tagline div.tagline-text {
     width: 80%;
   }
 
-  div.tagline div.tagline-text h1{
+  div.tagline div.tagline-text h1 {
     text-align: center;
   }
 
-  div.tagline div.tagline-img{
+  div.tagline div.tagline-img {
     margin-top: 100px;
   }
 
-  div.tagline div.tagline-img img{
+  div.tagline div.tagline-img img {
     height: 250px;
   }
 
   /*Features*/
 
-  div.heading-2#features-heading{
+  div.heading-2#features-heading {
     margin-left: 20px;
     margin-right: 20px;
   }
@@ -1755,7 +1764,7 @@ button {
     margin-bottom: 75px;
   }
 
-  div.features div.feature-1{
+  div.features div.feature-1 {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
@@ -1763,7 +1772,7 @@ button {
     align-items: center;
   }
 
-  div.features div.feature-1 div.feature-1-text{
+  div.features div.feature-1 div.feature-1-text {
     display: flex;
     flex-direction: column;
     width: 80%;
@@ -1772,27 +1781,27 @@ button {
     margin-top: 20px;
   }
 
-  div.features div.feature-1 div.feature-1-text h4{
+  div.features div.feature-1 div.feature-1-text h4 {
     margin-bottom: 20px;
     font-size: 20px;
   }
 
-  div.features div.feature-1 div.feature-1-text h3{
+  div.features div.feature-1 div.feature-1-text h3 {
     font-size: 10px;
   }
 
-  div.features div.feature-1 div.feature-1-img{
+  div.features div.feature-1 div.feature-1-img {
     display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
   }
 
-  div.features div.feature-1 div.feature-1-img img{
+  div.features div.feature-1 div.feature-1-img img {
     height: 125px;
-  } 
+  }
 
-  div.features div.feature-2{
+  div.features div.feature-2 {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
@@ -1801,7 +1810,7 @@ button {
     margin-top: 50px;
   }
 
-  div.features div.feature-2 div.feature-2-text{
+  div.features div.feature-2 div.feature-2-text {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -1810,27 +1819,27 @@ button {
     align-items: center;
   }
 
-  div.features div.feature-2 div.feature-2-text h4{
+  div.features div.feature-2 div.feature-2-text h4 {
     margin-bottom: 20px;
     font-size: 20px;
   }
 
-  div.features div.feature-2 div.feature-2-text h3{
+  div.features div.feature-2 div.feature-2-text h3 {
     font-size: 10px;
   }
 
-  div.features div.feature-2 div.feature-2-img{
+  div.features div.feature-2 div.feature-2-img {
     display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
   }
 
-  div.features div.feature-2 div.feature-2-img img{
+  div.features div.feature-2 div.feature-2-img img {
     height: 125px;
-  } 
+  }
 
-  div.features div.feature-3{
+  div.features div.feature-3 {
     display: flex;
     flex-direction: column-reverse;
     width: 100%;
@@ -1839,7 +1848,7 @@ button {
     margin-top: 50px;
   }
 
-  div.features div.feature-3 div.feature-3-text{
+  div.features div.feature-3 div.feature-3-text {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -1848,26 +1857,26 @@ button {
     align-items: center;
   }
 
-  div.features div.feature-3 div.feature-3-text h4{
+  div.features div.feature-3 div.feature-3-text h4 {
     margin-bottom: 20px;
     font-size: 20px;
     text-align: center;
   }
 
-  div.features div.feature-3 div.feature-3-text h3{
+  div.features div.feature-3 div.feature-3-text h3 {
     font-size: 10px;
   }
 
-  div.features div.feature-3 div.feature-3-img{
+  div.features div.feature-3 div.feature-3-img {
     display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
   }
 
-  div.features div.feature-3 div.feature-3-img img{
+  div.features div.feature-3 div.feature-3-img img {
     height: 125px;
-  } 
+  }
 
   /*Things Which Matter*/
 
@@ -1927,7 +1936,7 @@ button {
 
   /*Email Input*/
 
-  div.email-input {
+  form.email-input {
     display: flex;
     flex-direction: column;
     margin-top: 70px;
@@ -1936,18 +1945,19 @@ button {
     justify-content: center;
   }
 
-  div.email-input div.email {
+  form.email-input div.email {
     width: 100%;
   }
 
-  div.email-input div.email input#email {
+  form.email-input div.email input#email {
     width: 80%;
     padding: 10px 10px;
-    border: 7px solid ;
+    border: 4px solid;
     border-image: url('/assets/img/border.svg');
     border-image-slice: 10;
     border-radius: 12px;
     background-color: var(--base-black);
+    color: var(--pure-white);
   }
 
   ::placeholder {
@@ -1959,13 +1969,13 @@ button {
     color: var(--pure-white);
   }
 
-  div.email-input div.submit-button {
+  form.email-input div.submit-button {
     margin-top: 50px;
     width: 50%;
     text-align: center;
   }
 
-  div.email-input div.submit-button button#submit {
+  form.email-input div.submit-button button#submit {
     color: var(--pure-white);
     background-image: var(--grad-horizontal);
     padding: 15px 30px;
@@ -1978,20 +1988,19 @@ button {
     vertical-align: middle;
   }
 
-  div.email-cta{
-    margin-top: 70px;
+  div.email-cta {
+    margin-top: 50px;
     margin-left: 20px;
     margin-right: 20px;
     align-items: center;
     justify-content: center;
   }
-  
-  div.email-cta h3#email-text{
+
+  div.email-cta h3#email-text {
     text-align: center;
     vertical-align: middle;
   }
-  
- 
+
   /*Footer*/
 
   div.footer {
@@ -2052,20 +2061,20 @@ button {
     margin-right: 50px;
   }
 
-  div.privacy-policy div.policy h2{
+  div.privacy-policy div.policy h2 {
     margin-top: 50px;
     margin-bottom: 50px;
   }
 
   div.privacy-policy div.policy ul li::before {
-    content: "\2022"; 
-    color: var(--pure-white); 
-    display: inline-block; 
-    width: 1em; 
-    margin-left: -1em; 
+    content: '\2022';
+    color: var(--pure-white);
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
   }
 
-  div.privacy-policy div.policy li{
+  div.privacy-policy div.policy li {
     font-family: 'Quicksand', sans-serif;
     color: var(--pure-white);
     font-size: 20px;
