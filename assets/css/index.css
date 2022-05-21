@@ -11,7 +11,7 @@
   --base-pink-2: #bf41ce;
   --base-purple: #9b41e9;
   --grad-vertical: linear-gradient(to bottom, #e740af 0%, #9a41ea 100%);
-  --grad-horizontal: linear-gradient(to right, #e740af 0%, #9a41ea 100%);
+  --grad-horizontal: linear-gradient(to right, #e740af 0%, #c70fd4 51%, #9a41ea 100%);
   --screen-height: screen.height;
 }
 
@@ -437,6 +437,22 @@ button {
   display: none;
 }
 
+#submit {
+  background-image: var(--grad-horizontal);
+  padding: 20px 40px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 150% auto;
+  color: var(--pure-white);
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: large;
+}
+#submit:hover {
+  background-position: right center;
+}
+
 /* ------------------------------ */
 
 @media only screen and (min-width: 1201px) {
@@ -712,26 +728,6 @@ button {
   form.email-input div.submit-button {
     text-align: center;
     width: 20%;
-  }
-
-  form.email-input div.submit-button button#submit {
-    color: var(--pure-white);
-    background-image: var(--grad-horizontal);
-    background-size: 100% auto;
-    padding: 20px 40px;
-    text-align: center;
-    text-decoration: none;
-    transition: 0.5s;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: large;
-    border-radius: 12px;
-    vertical-align: middle;
-    cursor: pointer;
-  }
-
-  form.email-input div.submit-button button#submit:hover {
-    background-position: left center;
   }
 
   div.email-cta {
@@ -1130,19 +1126,6 @@ button {
   form.email-input div.submit-button {
     text-align: center;
     width: 20%;
-  }
-
-  form.email-input div.submit-button button#submit {
-    color: var(--pure-white);
-    background-image: var(--grad-horizontal);
-    padding: 20px 40px;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: large;
-    border-radius: 12px;
-    vertical-align: middle;
   }
 
   div.email-cta {
@@ -1546,19 +1529,6 @@ button {
   form.email-input div.submit-button {
     width: 30%;
     text-align: center;
-  }
-
-  form.email-input div.submit-button button#submit {
-    color: var(--pure-white);
-    background-image: var(--grad-horizontal);
-    padding: 20px 40px;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: large;
-    border-radius: 12px;
-    vertical-align: middle;
   }
 
   div.email-cta {
@@ -1970,22 +1940,14 @@ button {
   }
 
   form.email-input div.submit-button {
-    margin-top: 50px;
+    margin-top: 30px;
     width: 50%;
     text-align: center;
   }
 
-  form.email-input div.submit-button button#submit {
-    color: var(--pure-white);
-    background-image: var(--grad-horizontal);
+  #submit {
+    font-size: small;
     padding: 15px 30px;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
-    border-radius: 12px;
-    vertical-align: middle;
   }
 
   div.email-cta {
