@@ -745,6 +745,30 @@ button {
     width: 70%;
   }
 
+  /*Contribute*/
+
+  div.heading-2#contribute-heading{
+    margin-top: 100px;
+  }
+
+  div.contribute {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  div.contribute div.code-contribute {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  div.contribute div.code-contribute div.code-contribute-img{
+    width: 50%;
+  }
+
+  div.contribute div.code-contribute div.code-contribute-img
+
   /*Footer*/
 
   div.footer {
