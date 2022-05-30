@@ -9,6 +9,9 @@
   <!-- external css -->
   <link rel="stylesheet" href="assets/css/index.css" />
 
+  <!--aos-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
   <!-- favicon -->
   <link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />
   <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
@@ -109,7 +112,7 @@ A no bullshit social media platform where you can showcase your passions as NFTs
   </nav>
 
   <!--tagline-->
-  <div class="tagline">
+  <div class="tagline" data-aos="fade-in">
     <div class="tagline-text">
       <h1>
         A platform that connects your passion to Web 3.0
@@ -122,12 +125,12 @@ A no bullshit social media platform where you can showcase your passions as NFTs
   </div>
 
   <!--features-->
-  <div class="heading-2" id="features-heading">
+  <div class="heading-2" id="features-heading" data-aos="fade-in">
     <h2>
       The features that will make your jaw drop
     </h2>
   </div>
-  <div class="features">
+  <div class="features" data-aos="fade-in">
     <div class="feature-1">
       <div class="feature-1-text">
         <h4>
@@ -174,12 +177,12 @@ A no bullshit social media platform where you can showcase your passions as NFTs
   </div>
 
   <!--things which matter-->
-  <div class="heading-2" id="things-heading">
+  <div class="heading-2" id="things-heading" data-aos="fade-in">
     <h2>
       Some things which matter
     </h2>
   </div>
-  <div class="things-which-matter">
+  <div class="things-which-matter" data-aos="fade-in">
     <div class="things-flex">
       <div class="thing-1">
         <img src="./assets/img/thing-1-img-1.svg" alt="">
@@ -200,7 +203,7 @@ A no bullshit social media platform where you can showcase your passions as NFTs
   </div>
 
   <!--email input-->
-  <div class="heading-2" id="email-heading">
+  <div class="heading-2" id="email-heading" data-aos="fade-in">
     <h2>
       Become a Web 3 creator
     </h2>
@@ -226,12 +229,12 @@ A no bullshit social media platform where you can showcase your passions as NFTs
   </div>
 
   <!--contribute-->
-  <div class="heading-2" id="contribute-heading">
+  <div class="heading-2" id="contribute-heading" data-aos="fade-in">
     <h2>
       Your support is always welcome
     </h2>
   </div>
-  <div class="contribute">
+  <div class="contribute" data-aos="fade-in">
     <div class="code-contribute">
       <div class="code-contribute-img">
         <img src="./assets/img/code-support.svg">
@@ -305,6 +308,10 @@ A no bullshit social media platform where you can showcase your passions as NFTs
   <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
   <script src="./assets/js/inputUtils.js"></script>
   <script type="module" src="./assets/js/index.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
